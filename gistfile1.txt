@@ -1,0 +1,2118 @@
+Commits in HEAD
+7bfce6fe *   origin/master origin/HEAD master Merge pull request #1658 from braddunbar/history-window
+         |\  
+a4243413 | * Fix #1653 - Ensure that `History` can be used outside of the browser.
+         |/  
+da18e002 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+161c3a21 | *   Merge pull request #1656 from braddunbar/sortby-groupby - http://gitelephant.cypresslab.net/backbone-js/commit/161c3a21d7c3d43445478cee8f64f6ddb996822e
+         | |\  
+c344201f | | * Fix #1655 - sortBy & groupBy use attributes.
+ff0ddbce | * |   Merge pull request #1650 from braddunbar/#
+         | |\ \  
+         | | |/  
+         | |/|   
+7c993bd3 | | * Fix #1649 - Set location.hash with a leading #.
+07b88efa | * | Revert "TravisCI integration."
+8ea7d9a0 | * |   Merge pull request #1644 from braddunbar/default-options
+         | |\ \  
+85fca58b | | * | Refactor reset/sort.
+         | | |/  
+74ba05c8 * | | adding CONTRIBUTING to backbone
+         |/ /  
+5b19d8ac * | tweaking edge link
+5eb4c7ba * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+07b6760a | * | Style - Split long line into two.
+         | |/  
+36a733a8 | * Tweak string comparator implementation.
+8fdcaf20 | *   Merge pull request #1587 from krawaller/master.
+         | |\  
+8f299540 | | * removed prefix logic
+4707b020 | | * removed automatic sorting in anticipation of sort option to .set
+d2b4c1e5 | | * test update
+72c46075 | | * updated docs to reflect automatic resorting
+342a525e | | * automatic resort when sorting attribute changes
+43491f6f | | * minor performance refactor
+a8388e27 | | * refactored to replace comparator string with the generated function instead of generating on every sort call
+e2e70f70 | | * updated docs to reflect new comparator API
+8fafad12 | | * changed suffix syntax to prefix
+b9e5c1e6 | | * variable name cleanup
+d97b8844 | | * allowing propname arg as collection comparator
+dc960f79 | * |   Merge pull request #1637 from braddunbar/travis
+         | |\ \  
+fcd3898e | | * | TravisCI integration.
+         | |/ /  
+3b08fb8c | * | Remove dependencies on qunit html.
+68e4377d | * |   Merge pull request #1629 from gsamokovarov/view-test-refactoring.
+         | |\ \  
+e413f63a | | * | Refactor test/view.js
+e809bfbf | * | |   Merge pull request #1628 from braddunbar/frag
+         | |\ \ \  
+         | | |/ /  
+         | |/| |   
+c19459a8 | | * | Remove unnecessary `frag` variable.
+         | |/ /  
+3fd842c6 | * |   Merge pull request #1626 from braddunbar/test-prefix
+         | |\ \  
+33cdab41 | | * | Drop doubled test prefixes.
+         | |/ /  
+00a69cca | * | Fix #1615 - Update localstorage code.
+f4937ebd | * |   Merge pull request #1623 from braddunbar/transition-to-hashchange
+         | |\ \  
+f3be02e1 | | * | Add test for transition to hashChange.
+         | |/ /  
+8a7076ac | * | Fix #1619 - Streamline rootStripper implementation.
+1efeae70 | * | fix #1619: fix navigation when root is empty
+16001ca9 | * |   Merge pull request #1605 from braddunbar/relative-url
+         | |\ \  
+d015ef11 | | * | pushState/replaceState takes a relative url.
+         | |/ /  
+d52c612b | * |   Merge pull request #1611 from braddunbar/collection-proxy
+         | |\ \  
+f8b5f7fa | | * | Avoid creation of extra array in collection proxy.
+4beaf2fd | * | |   Merge pull request #1610 from braddunbar/test-index
+         | |\ \ \  
+81669f51 | | * | | test/{test.html -> index.html}
+         | | |/ /  
+6f390051 | * | |   Merge pull request #1614 from aeosynth/master
+         | |\ \ \  
+         | | |/ /  
+         | |/| |   
+1206fbe5 | | * | update comment
+         | |/ /  
+75216c06 | * | Fix #1608 - Clarify render example with template definition.
+b3b27367 | * |   Merge pull request #1607 from braddunbar/result
+         | |\ \  
+10db0ab2 | | * | getValue -> _.result
+         | |/ /  
+f4506ca8 | * |   Merge pull request #1603 from braddunbar/test-module
+         | |\ \  
+8ef1730b | | * | Consolidate test boilerplate; use consistent names.
+         | |/ /  
+65ed49bb | * | Clean up.
+dabc5caf | * | Upgrade QUnit.
+f49272e1 | * | Fix variable scope error, provide test.
+6a22f01b | * |   Merge pull request #1599 from braddunbar/sync
+         | |\ \  
+1f3f4525 | | * | Consolidate sync/error events in Backbone.sync.
+         | |/ /  
+4335fa88 | * |   Merge pull request #1472 from 'contiamo/master'.
+         | |\ \  
+3a388b69 | | * | Always trigger error when validation fails.
+306e20ec | | * | Trigger error even when providing a callback.
+d9f1e00f | * | | No need to default `options` to `{}`.
+2af9f4d5 | * | |   Merge pull request #1445 from 'emorikawa/master'.
+         | |\ \ \  
+66a79f14 | | * | | isValid now takes an optional 'options' parameter that gets passed through to validate. Needed so one can test validation under a variety of contexts
+e736811f * | | | | Adding an Edge Version link
+         |/ / / /  
+38991ab5 * | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \  
+355c4801 | * \ \ \   Merge pull request #1590 from braddunbar/extend
+         | |\ \ \ \  
+f36f11e5 | | * | | | Use Surrogate instead of Prototype.
+62960e78 | | * | | | Refactor extend.
+         | | | |_|/  
+         | | |/| |   
+8f271532 | * | | |   Merge pull request #1585 from braddunbar/default-history
+         | |\ \ \ \  
+         | | |/ / /  
+         | |/| | |   
+e70a38ef | | * | | Fix #1584 - Create default Backbone.history.
+         | |/ / /  
+9747d235 | * | |   Merge pull request #1459 from braddunbar/attr-spaces
+         | |\ \ \  
+e23c8714 | | * | | Fix #1455 - Warn that attribute names should not contain spaces.
+         | |/ / /  
+ec061250 | * | |   Merge pull request #1579 from ngauthier/master
+         | |\ \ \  
+e5a29107 | | * | | add check for jsl
+         | |/ / /  
+ab98b91a | * | |   Merge pull request #1571 from aeosynth/master
+         | |\ \ \  
+4c6f1926 | | * | | use inherits helper directly
+         | |/ / /  
+a8cf11e6 | * | |   Merge pull request #1569 from aeosynth/master
+         | |\ \ \  
+3c673644 | | * | | [style] coll -> collection
+         | |/ / /  
+cee30cf4 | * | |   Merge pull request #1557 from iros/collection.parse
+         | |\ \ \  
+980f60e0 | | * | | removing extra options check
+330f2ba1 | | * | | adding model parsing for collections on initialization of a collection from raw data
+6782ba2f | * | | |   Merge pull request #1560 from braddunbar/aliases
+         | |\ \ \ \  
+952fb884 | | * | | | Ensure that Collection proxies underscore aliases.
+         | |/ / / /  
+cebc33a6 * | | | | teense of clarification about urlRoot being a rare override
+         |/ / / /  
+db9545c1 * | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \  
+         | |/ / /  
+3ae1af6d | * | |   Merge pull request #1461 from braddunbar/view-dispose
+         | |\ \ \  
+971a5fb3 | | * | | Add View#dispose.
+         | |/ / /  
+71d0fe3d | * | | escape todo items.
+28101431 | * | | Tweak id/className test.
+41333dfa | * | |   Merge pull request #1520 from gsamokovarov/getvalue-id-classname
+         | |\ \ \  
+51387ebc | | * | | getValue for View::className and View::id
+         | |/ / /  
+4e2da669 * | | | Fixes #1554, removes FUD about _.template
+         |/ / /  
+215805e2 * | |   Merge pull request #1519 from spicyj/ka
+         |\ \ \  
+abee26c5 | * | | Update Khan Academy blurb and screenshot
+         |/ / /  
+28f0b6a2 * | |   Merge pull request #1518 from nullobject/master
+         |\ \ \  
+442a860a | * | | Don't include everything into the npm package.
+         |/ / /  
+b75c3e1e * | |   Merge pull request #1512 from braddunbar/trigger-args-loop
+         |\ \ \  
+037b3f52 | * | | Fix #1511 - Add a comment explaining performance concerns in `trigger`.
+9a81468b * | | | Tweak root normalization.
+596b12b5 * | | | Added test case for trailing slashs changes to atRoot in Backbone.history.start()
+3d6b20ca * | | | Normalizing root url on Backbone.History.start, consistently matching root url for atRoot in History.start regardless of trailing slash
+86cffe9b * | | | Fixed Backbone.History.navigate and Backbone.History.start so any url changes include a slash between the root and route fragment when using pushState
+         |/ / /  
+8b23c013 * | | tweaking wordpress example
+6fef16b3 * | |   Merge pull request #1503 from nb/example-wpcom
+         |\ \ \  
+75befbbb | * | | Adding WordPress.com as an example app
+         |/ / /  
+b5e32d4c * | |   Merge pull request #1498 from braddunbar/clarify-off
+         |\ \ \  
+76bc9faf | * | | Fix #1494 - Clarify documentation for `off`.
+         |/ / /  
+6d880672 * | |   Merge pull request #1493 from braddunbar/consistency
+         |\ \ \  
+ddefd211 | * | | Consistent use of `===` and `void 0`.
+         |/ / /  
+9ef2b3cf * | |   Merge pull request #1492 from gsamokovarov/patch-3
+         |\ \ \  
+9b7dd43c | * | | Put short if statements on one line and add some whitespace
+         |/ / /  
+9a12b764 * | |   Merge pull request #1488 from tbranyen/master
+         |\ \ \  
+5f57f8cc | * | | reduced extends to single return
+         |/ / /  
+07f2a68a * | |   Merge pull request #1486 from mitya777/remove-extend
+         |\ \ \  
+131e169c | * | | removed redundant extend
+         |/ / /  
+f663ba6d * | | updating airbnb example
+b6f1d523 * | |   Merge pull request #1484 from bukhamseen/master
+         |\ \ \  
+         | |_|/  
+         |/| |   
+639819c7 | * | prefer on over bind
+         |/ /  
+d8477f4b * | Revert #1353 for further discussion.
+d10b6ddc * | adding Prose as a Backbone example.
+c18b7763 * | Add a test and tweak whitespace for #1448.
+6a8232a3 * |   Merge pull request #1448 from ganmor/sortfix.
+         |\ \  
+6df4874f | * | Move sort after merge
+         | |/  
+ff561ca2 * | Fix #1447 - `model.save` does not delete `options.wait`.
+         |/  
+cf805816 *   Merge pull request #1444 from christopherwright/master
+         |\  
+17a37347 | * Fix typo - "Backbones's" should be "Backbone's"
+7f375d8a | * to_json doesn't include namespace by default for Rails>=3.1
+a9e42aaf | * Fix typo, "models state" should be "model's state"
+         |/  
+17189f31 *   Merge pull request #1440 from braddunbar/save-invalid
+         |\  
+af5e8f5c | * Fix #1433 - Do not save invalid models.
+         |/  
+10b3b386 * Remove accidental inclusion.
+5d3e441b * Document test source.
+2d7aa990 * Adding Disqus as an example app.
+f3039b69 * Fix #1420 - Lazy load example images.
+ef1900b3 *   Merge pull request #1432 from brettgoulder/master
+         |\  
+c7091044 | * Just do the media query for the iPhone 4, not retina macbook
+         |/  
+352d486b * adding spin as an example site.
+9ee453f4 * updating tests
+bc931c31 * Fixing Routing.
+2eeaa4a7 *   merged
+         |\  
+be5d4fd7 | * Fix #1366 - Root should not be prepended to history.fragment.
+76de397c * |   Merge pull request #1414 from braddunbar/root-trailing-slash
+         |\ \  
+27e9e474 | * | Fix #1387 - getFragment trims trailing slash before removing root.
+966bb3db * | | Update event args for `"destroy"` and `"sync"`.
+af31b4eb * | |   Merge pull request #1422 from rhencke/patch-1
+         |\ \ \  
+         | |_|/  
+         |/| |   
+faeca244 | * | Note options parameter for add/remove/reset in Catalog of Events.
+         |/ /  
+9f9028bf * | Add documentation for Model#sync, Collection#sync.
+b6b9ec72 * | Fix #1365 - Destroy: new models execute success callback.
+54ec530e * | Provide a default implementation of `sync`.
+4286e0c5 * | Fix #1403 - Trigger "sync" unconditionally.
+2b5af42b * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+4ecc161e | * | Tweak tests a bit.
+f24ca5a0 | * | #1412 - Trigger "sync" event for fetch also
+         | |/  
+0b15e163 | *   Merge pull request #1411 from philfreo/master
+         | |\  
+a3dbdd57 | | * fix typo in docs
+         | |/  
+30e630a8 | * QUnit 1.8.0
+39551232 | * Quote attributes correctly for older browsers.
+db6514b6 | *   Merge pull request #1408 from davidmarble/master
+         | |\  
+6a39bfd8 | | * Move collection assignment a few lines up so this.collection is available in Model.parse
+45afea11 * | | adding Easel.io as an example site.
+         |/ /  
+d4d7fb97 * | adding Inkling as an (amazing) example app.
+adc81a19 * |   Merge pull request #1409 from durden/master
+         |\ \  
+         | |/  
+         |/|   
+1abfefd1 | * Fix broken reference to missing underscore.js file in todos example.
+         |/  
+2cd5818f *   Merge pull request #1404 from braddunbar/history-tests
+         |\  
+e4caafc6 | * Add router tests for #1185, #1206.
+         |/  
+fd178e82 *   Merge pull request #1400 from braddunbar/mock-location
+         |\  
+2e2e9f7e | * Use mock location to test Backbone.history.
+c59ec4d5 * |   Merge pull request #1398 from braddunbar/ie-test
+         |\ \  
+         | |/  
+         |/|   
+f133f0d5 | * Ensure tests run in IE7.
+         |/  
+7bcd6ad5 * Fix #1391 - Use apply in example to account for variadic usage.
+ee062f6d * Fix assertion count.
+a8553e17 *   Merge pull request #1380 from DjebbZ/master
+         |\  
+6454074d | * Small typo in comment : missing "`".
+d7e77b1a * |   Merge pull request #1327 from TheBits/silent-merge
+         |\ \  
+         | |/  
+         |/|   
+ead3d48e | * Reorder code in Collection.add
+3630b04e | * Improve test "merge in duplicate models with {merge: true}"
+85bd0b51 * | Revert "Revert "Revert "Fix #1366 - Do not prepend root to history.fragment."""
+2939a2a4 * | Revert "Skip pushState tests with 'file:' protocol."
+76eeafcc * | Skip pushState tests with 'file:' protocol.
+ba980801 * | Revert "Revert "Fix #1366 - Do not prepend root to history.fragment.""
+ceb68d73 * | Revert "Fix #1366 - Do not prepend root to history.fragment."
+97379d66 * |   Merge pull request #1372 from braddunbar/fragment
+         |\ \  
+2b0ad77f | * | Fix #1366 - Do not prepend root to history.fragment.
+7054ca4a * | |   Merge pull request #1353 from braddunbar/destroy
+         |\ \ \  
+767e7512 | * | | Documentation for View#destroy.
+dad7e275 | * | | Fix #1339 - Add Backbone.View#destroy.
+7828d6d2 * | | | Prefer on/off over bind/unbind.
+465f297a * | | |   Merge pull request #1374 from braddunbar/test-refactor
+         |\ \ \ \  
+41f64c7f | * | | | Refactor a test for simplicity.
+         |/ / / /  
+626e3f16 * | | | adding correct number of expected assertions to nested change events model test
+3ad4ee86 * | | |   Merge pull request #1373 from wookiehangover/test_expected
+         |\ \ \ \  
+         | |_|/ /  
+         |/| | |   
+f4ebee04 | * | | adding the `expected` argument to all tests
+         |/ / /  
+c924e05b * | | adding tests for #1355
+6250b635 * | | Pass options to success function on save, create and destroy.
+b371d566 * | | Pass fetch options to success function (as error function does).
+         |/ /  
+5509e138 * |   Merge pull request #1349 from nervetattoo/docs-advocate-proper-el-usage
+         |\ \  
+f222360c | * | Advocate proper usage of $el over $(this.el) in documentation
+         |/ /  
+201373a1 * | Documentation for #1342.
+b6dc6a22 * |   Merge pull request #1342 from caseywebdev/master
+         |\ \  
+c016a1c5 | * | Added a few more cases for the test
+4a0acdee | * | Simplified falsy comparator test case
+3952cde5 | * |   Merge pull request #1 from wookiehangover/issue1342
+         | |\ \  
+98e01bbc | | * | adding test for falsy comparators (#1342)
+         | |/ /  
+6d21c05b | * | Allow Collection to receive falsy `comparator` to override default
+3c7c8d2f * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+         | |/ /  
+7bea8ee3 | * |   Merge pull request #1341 from caseywebdev/master
+         | |\ \  
+6f3328f2 | | * | Updated `Collection.sort()` doc to clarify priority maintenance
+         | |/ /  
+f86674d6 * | | Fixes #1343, adding Collection#slice
+         |/ /  
+fdb3451c * |   Merge pull request #1323 from hswolff/mobile-site
+         |\ \  
+         | |/  
+         |/|   
+29be393d | * Further updates: * Clean up @media query indentation * Support other larger resolution mobile phones * Fix Backbone logo to not appear smushed * Try alternate mobile sidebar display to indicate scrolling * Fix width to be dynamic depending on width of screen
+6cabc5bb | * remove comment, fix my xy
+5af01e2a | * implement optimized mobile version of backbone website
+e34e14c4 * |   Merge pull request #1322 from braddunbar/backbone-$
+         |\ \  
+         | |/  
+         |/|   
+dcd10430 | * Update docs.
+04bd18e3 | * Jettison setDomLibrary in favor of Backbone.$.
+         |/  
+020ed101 * smart @braddunbar simplification.
+1a767d6a * Changed mind. More breathing room.
+b3425b84 * Fixing Backbone.ajax implementation.
+9f161aeb *   Merge pull request #1317 from lennym/master
+         |\  
+ba249903 | * Copied Backbone.ajax from global DOM lib at runtime to allow calls to Backbone.setDomLibrary to take effect and improve compatibility with test frameworks that mock $.ajax
+         |/  
+f1419843 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+291bfade | *   Merge pull request #1307 from wookiehangover/issue1306
+         | |\  
+99072115 | | * documenting model.clear's new behavior in the 0.9.0 changelog
+d14e8cf0 | | * additional documentation for Model.clear
+192b1c06 | * | Events.off uses reverse iteration to avoid altering indicies.
+080241a4 * | | changing links to underscorejs.org
+         |/ /  
+cb50c10b * | adding scrollkit as an example site
+83a24bb2 * | Fix #1310 - off does not skip consecutive events.
+         |/  
+7d8c51a3 *   Merge pull request #1293 from wookiehangover/issue1292
+         |\  
+638af0f6 | * updating model.previous arguments check to match hasChanged
+c3aed6f7 | * simplifying hasChanged if statement
+cacd01d5 | * Fix #1292 - unexpected results when passing undefined to Model.hasChanged()
+52c54d4c * | adding a rel=canonical
+d862436d * | fixed broken fragment links to underscore proxy methods
+c9195682 * |   Merge pull request #1295 from braddunbar/refactor-preparemodel
+         |\ \  
+         | |/  
+         |/|   
+0ea9f47b | * Refactor _prepareModel.
+         |/  
+36dfdab5 *   Merge pull request #1285 from braddunbar/ajax
+         |\  
+4dcf4bde | * Avoid throwing when $ is not defined.
+22606f9b * | Tweak events implementation.
+7fcba24d * |   Merge pull request #1284 from lifesinger/master
+         |\ \  
+         | |/  
+         |/|   
+15a61c08 | * refactor events using array instead of linked-list to improve performance
+         |/  
+6c3d3838 *   Merge pull request #1283 from braddunbar/retrieve-all
+         |\  
+c4297e5e | * Fix #1282 - "all" callback list is retrieved for each event.
+         |/  
+c7a7584f *   Merge pull request #1275 from braddunbar/qunit-1.5.0
+         |\  
+70005fdd | * Update QUnit.
+fdc12d16 * |   Merge pull request #1274 from braddunbar/null-id
+         |\ \  
+         | |/  
+         |/|   
+46d43ae5 | * null and undefined are invalid ids.
+         |/  
+e0d349a5 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+26a3e2b6 | *   Merge pull request #1264 from gsamokovarov/patch-1
+         | |\  
+c4f55849 | | * Whitespace cleanup for extend Collection.prototype.chain function definitions.
+         | |/  
+67dc8b96 | *   Merge pull request #1257 from benatkin/patch-1
+         | |\  
+b6ab27ad | | * point to CoffeeScript.org for installation instructions
+7958956e | | * Use the same type of URL for installation instructions.
+d49c4da2 * | | updating linkedin example app
+         |/ /  
+06338a7a * | shifting the Walmart mobile down a teense.
+7de0b263 * |   Merge pull request #1258 from syntacticx/master
+         |\ \  
+4ed60168 | * | add link to Walmart Mobile
+         | |/  
+ff8f9d4d * |   Merge pull request #1260 from zamiang/push_state_unsupported
+         |\ \  
+         | |/  
+         |/|   
+0c4bea53 | * removing ds_store -- should be added to .gitignore...
+f878b7cf | * supporting url params in browsers without pushState support when pushState is enabled
+         |/  
+64205fbd * Add tests for #1122.
+bf9e4f63 * adding a test for the previous commit -- failed save with wait:true
+8aee79ae * Fixes #1223 -- new attributes left behind after a failed wait:true
+07a00ba4 * adding tests for merge:true
+b42cc648 * tweaking duplicate model merge:true
+9ee0358c *   Merge pull request #1220 from folded/master
+         |\  
+7dbab65b | * Support merging of updated object state on collection add.
+04a778c7 * |   Merge pull request #1239 from philfreo/master
+         |\ \  
+3d6772a2 | * | Adding Collection's clone() to docs
+7eca8c78 | * | Giving Collections a clone() method.
+fd253689 * | | Correct minor mistake in todo example.
+c986ae23 * | | adding KANO/GAMES as an example app
+         |/ /  
+b536b137 * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+35bb2c0f | * | Use raises correctly.
+9c081413 | * |   Merge pull request #1234 from braddunbar/tagname
+         | |\ \  
+5fc8005c | | * | Fix #1228 - tagName can be provided as a function.
+e2042c30 * | | | Fixes #1225 -- old documentation for urlRoot vs collection.url()
+         |/ / /  
+dddd001d * | | pitchfork ain't https
+b1441b23 * | | adding pitchfork as an example app.
+         |/ /  
+e1e42571 * | reverting master backbone-min.js to 0.9.2
+bdfcd5ef * | Adding Rdio as an example app.
+         |/  
+a88efef3 *   Merge pull request #1213 from braddunbar/backbone-ajax
+         |\  
+87c9b17a | * Fix #474 - Backbone.ajax
+         |/  
+67c3ea86 * simple refactor for #1206
+656f59e0 *   Merge pull request #1206 from aterris/frag
+         |\  
+35f11ba5 | * remove unneeded line and return on window.location.assign
+b9021b64 | * normalize fragment when hashChange: false in navigate
+         |/  
+2cab3a34 * Fixes #1134 -- better document that model attributes are 'plain' data, not often arbitrary JS objects.
+db4f66ba * Fixes #1151
+8bb15b9e * tweaking wording
+2e652e4d *   Merge pull request #1187 from Benjen/master
+         |\  
+1b8ed46f | * Added additional information to warning text in model-defaults section, to explain when to use a function to define model default values. See Issue #1145
+0b270cce * |   Merge pull request #1204 from paulmillr/patch-2
+         |\ \  
+8455b500 | * | Update salon.io example.
+         |/ /  
+951f1db1 * |   Merge pull request #1203 from paulmillr/patch-1
+         |\ \  
+c8030ce3 | * | Slightly update blossom example.
+         |/ /  
+e2c5ce85 * |   Merge pull request #1200 from ymichael/master
+         |\ \  
+f71bc0d5 | * | fix setting of id for todo model
+         |/ /  
+1bd9b7cb * | adding art.sy as an example app
+fb492334 * |   Merge pull request #1185 from aterris/fragment
+         |\ \  
+7596947b | * | use pathname as fragment when hashChange: false
+         | |/  
+f60e4854 * |   Merge pull request #1199 from mostly-magic/master
+         |\ \  
+         | |/  
+         |/|   
+74dec4d9 | * Bypass iframe for old IE when hash change disabled
+         |/  
+091b3e5a *   Merge pull request #1181 from braddunbar/isvalid
+         |\  
+137b7fd6 | * Fix #1179 - isValid returns true in the absence of validate.
+af30bcf3 * | `off` is chainable when there are no events.
+         |/  
+a2ed079a * removing reg exp test.
+e5aabc60 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+948d41c2 | *   Merge pull request #1156 from VIISON/master
+         | |\  
+59b39c43 | | * Add router test for urls with encoded characters
+34c058e7 * | | Fixes #1155 -- remove erroneous documentation about create() returning an XHR
+         |/ /  
+d7b8c8cd * | reworking docs for model.collection
+fad38af9 * |   Merge pull request #1163 from aterris/model-collection-docs
+         |\ \  
+42bb5406 | * | fix comment to more accurately reflect its true usage
+54c4d7cd | * | adds documentation for the automatic nested collection option on models
+         | |/  
+da97490f * | Optimizing #1172
+bc922ab1 * |   Merge pull request #1172 from wrapp/master
+         |\ \  
+         | |/  
+         |/|   
+2a1d0635 | * Make sure the attribute object is clone before extending it
+d852c729 | * Add a test case for cloning the attribute object
+         |/  
+fd4df5a8 *   Merge pull request #1152 from braddunbar/implicit-tojson
+         |\  
+5d04588a | * toJSON is called implicitly.
+dbdd49d2 * |   Merge pull request #1154 from tombell/patch-1
+         |\ \  
+         | |/  
+         |/|   
+e4c7a79d | * Update Rakefile - missing '
+         |/  
+01adb382 *   Merge pull request #1144 from bebanjo/fix_add_with_at
+         |\  
+db4b6176 | * add ignores comparator when at option is passed
+         |/  
+d8de1cac *   Merge pull request #1141 from colevscode/master
+         |\  
+2d9d77cf | * Corrected link to address issue #1132 (Broken link in annotated source)
+a1dea84b * | touch scrolling the sidebar for ios
+         |/  
+4d0051de *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+cb8a12fe | *   Merge pull request #1129 from r00k/allow-content-of-0-in-make
+         | |\  
+c7034b97 | | * Let make take other falsy values for content.
+69d2c506 | | * Allow make to take an argument of 0.
+         | |/  
+af721fbc * | adding a missing typoed comment.
+         |/  
+f784ae38 * adding EDITD as an example app
+863814e5 * 0.9.2 Backbone.js 0.9.2
+56e10451 * more comments, more spacing, more better
+4f8d790c * more comments, more better
+9899a817 * tweaking addy's todo changes.
+561cb707 *   Merge branch 'master' of https://github.com/addyosmani/backbone
+         |\  
+3cf1bb4e | * Updating with latest version from TodoMVC
+42ad7a67 * | fixes #1092 -- use model.get( internally instead of raw access, for easier extension / overriding.
+f4a1ebc3 * | fixes #1030 -- save with wait:true with a synchronous Backbone.sync
+e9e1abfe * | model.destroy() returns false if the model.isNew()
+a554d6b8 * |   Merge pull request #1111 from braddunbar/sync-docs
+         |\ \  
+0ae16272 | * | Document jqXHR return values.
+84a7e359 | * | Fix #1108 - document return value of `sync`.
+7b6dbc8d * | |   Merge pull request #1021 from ahamid/reset_passes_options
+         |\ \ \  
+79045c11 | * | | small patch to allow passing options through reset to model initializer
+de599c16 * | | | Fixes #991. Add Collection#where for simple filters
+5f41b887 * | | |   Merge pull request #1110 from braddunbar/off
+         |\ \ \ \  
+fb270978 | * | | | Fix #1105 - Add convenience overloads for `off`.
+         | | |/ /  
+         | |/| |   
+e2e0a098 * | | |   Merge pull request #1114 from braddunbar/save-wait-validate
+         |\ \ \ \  
+6948b59e | * | | | Fix #1057 - Save with wait validates model.
+         | |/ / /  
+315d67b6 * | | |   Merge pull request #1119 from braddunbar/collection-model
+         |\ \ \ \  
+         | |/ / /  
+         |/| | |   
+9ffc84c9 | * | | Fix #1112 - options.model sets collection.model.
+         |/ / /  
+01fb4149 * | | editing airbnb mobile
+ec8dc945 * | | Fix typo
+8b619759 * | | Add airbnb mobile to examples
+a3282f43 * | |   Merge pull request #1071 from dira/patch-2
+         |\ \ \  
+d5751d50 | * | | Improved description.
+9928deee | * | | Documentation for set - mention that the validation is skipped when passing {silent: true}
+7e821883 * | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \  
+44b40c1e | * \ \ \   Merge pull request #1097 from lxb/optimization-1
+         | |\ \ \ \  
+82eed08b | | * | | | Slight optimization for Events cache splitting Regex
+         | |/ / / /  
+9414513a * | | | | Fixes #1098
+         |/ / / /  
+64f37ce0 * | | | fixes #1067, urlRoot vs collection.url() order
+2b849a9b * | | |   Merge pull request #1070 from dira/patch-1
+         |\ \ \ \  
+c473066c | * | | | Updated documentation for validate #1063
+         | |/ / /  
+58b5a22b * | | | fixes #1073 -- document that sync can be overridden at the collection or model level.
+b59fa6f7 * | | |   Merge pull request #1084 from dira/patch-3
+         |\ \ \ \  
+5d43483a | * | | | Added a note to javascript injection attacks when bootstrapping data #1034
+6d85811d * | | | |   Merge pull request #1093 from afeld/test-cleanup2
+         |\ \ \ \ \  
+         | |/ / / /  
+         |/| | | |   
+f4996901 | * | | | clean up tests to use fresh object instances for each run, and don't set globals within test files
+         |/ / / /  
+b9c6ee91 * | | |   Merge pull request #1079 from paulmillr/add-links-to-software
+         |\ \ \ \  
+3c69806f | * | | | Add links to software.
+         |/ / / /  
+5db14ff4 * | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \  
+         | |/ / /  
+1f40de75 | * | |   Merge pull request #1065 from ewang/master
+         | |\ \ \  
+f4222915 | | * | | fix typo in index.html
+         | |/ / /  
+fdfe0105 * | | | adding chaincal as an example app
+         |/ / /  
+673d07be * | | adding attictv and codiqa as example apps
+77c12aca * | |   Merge pull request #1041 from braddunbar/undelegate
+         |\ \ \  
+         | |_|/  
+         |/| |   
+6c392fa6 | * | Fix #986 - Undelegate events before changing `el`.
+         |/ /  
+dca02eca * | Fixes #1053 -- updating comment to reflect changed style of validate()
+5ef4921c * | merging async test.
+f930b5f0 * | adding additional router test
+83d2918b * | removing a test that is invalid in IE.
+54e284bc * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+f8b37a84 | * | Add test for #1048.
+111d5a1f | * | Add a test for #1052.
+07604dea * | |   merging in hash fixer for FF
+         |\ \ \  
+         | |/ /  
+         |/| |   
+17459a31 | * | Adding test for #967.
+402508d8 | * | Getting the hash value from location.href rather than location.hash as a workaround to the Firefox bug where location.hash is decoded.
+b37a0966 * | |   Merge pull request #1048 from marat-dreizin/master
+         |\ \ \  
+0d1d278c | * | | Added ability to avoid an additional '$()' call in 'setElement' method if current 'element' is already wrapped with '$()'
+c9599d6b * | | | fixing or= JS style for sync options.
+a91b325c * | | |   Merge pull request #1052 from Sid3Show/master
+         |\ \ \ \  
+daea564e | * | | | Made Backbone.sync options parameter optional
+         |/ / / /  
+41e9d1a8 * | | |   Merge pull request #1040 from braddunbar/$-docs
+         |\ \ \ \  
+         | |/ / /  
+         |/| | |   
+ef5835ac | * | | Fixes #1038 - Document changes to `view.$`.
+         |/ / /  
+a9607945 * | |   Merge pull request #1024 from braddunbar/locals
+         |\ \ \  
+e3098484 | * | | Use local references to `Model`, `View`, etc.
+         |/ / /  
+4de073ca * | |   Merge pull request #1023 from braddunbar/events
+         |\ \ \  
+f92fa9a0 | * | | Clean up `Backbone.Events`.
+         |/ / /  
+c8cbde2e * | | Correct more grammar.
+6560ad83 * | |   Merge pull request #1022 from hswolff/grammar-fixes
+         |\ \ \  
+a4410ede | * | | fix instances of it's to its for proper grammar
+         |/ / /  
+c6b28149 * | |   Merge pull request #982 from braddunbar/change
+         |\ \ \  
+         | |_|/  
+         |/| |   
+5f129678 | * | documentation for `changed`
+afbca722 | * | Fixes #1016 - Expose `changed`.
+82ee97d3 | * | Use `null` for uninitialized variables.
+69b80f5e | * | Fixes #959 - Silent changes fire `'change:attr'`.
+9587a1f2 * | |   Merge pull request #1014 from OttoAllmendinger/master
+         |\ \ \  
+         | |/ /  
+         |/| |   
+5071967e | * | fix error message on missing event callback
+         |/ /  
+e5db1c93 * |   Merge pull request #1011 from wookiehangover/issue996
+         |\ \  
+8d8a3599 | * | adding test coverage for route precedence as per issue #996
+16b37e73 * | |   Merge pull request #1010 from braddunbar/history-start
+         |\ \ \  
+232c8880 | * | | fixes #1003 - History is started before `navigate`
+         | |/ /  
+cf93180a * | |   Merge pull request #1004 from peterp/patch-2
+         |\ \ \  
+         | |/ /  
+         |/| |   
+c4d53abd | * | fixes #1004
+742dde34 | * | Changed:
+         |/ /  
+04e2e202 * |   Merge pull request #1008 from braddunbar/missing-callback
+         |\ \  
+8b285c6c | * | `on` is a noop if no callback is provided
+         |/ /  
+b9e36f0f * |   Merge pull request #1006 from bmaland/docs
+         |\ \  
+c2a08957 | * | Fix signature of urlRoot in documentation
+         |/ /  
+1406ef1c * |   Merge pull request #1001 from vertigem/feature/qunit-toolbar
+         |\ \  
+63188db4 | * | added qunit toolbar
+a603e5a8 * | |   resolving merge with master.
+         |\ \ \  
+af4fdb3d | * \ \   Merge pull request #994 from OttoAllmendinger/master
+         | |\ \ \  
+         | | |/ /  
+         | |/| |   
+e0b24496 | | * | unify dashes in index.html
+         | |/ /  
+3d9d8348 | * | Adding sidebar items for github repo and annotated source, as well as a reference to Backbone's license file to documentation.
+178ae27a | * |   Merge pull request #985 from peterp/patch-1
+         | |\ \  
+417bcb97 | | * | Fixes #984
+         | |/ /  
+b3aed201 | * |   Merge pull request #980 from vovik/new-master
+         | |\ \  
+3761d281 | | * | fixes #972 by cleaning up a messy conditional
+         | |/ /  
+18fba577 * | | Much asked-for change. Instead of throwing an early error when adding duplicate models, Backbone will simply skip them instead.
+         |/ /  
+b1e2e699 * | moving picklive up, removing bittorrent from the examples...
+639ce1ae * | added picklive's game client as an example app
+2a92f71d * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+be937ffa | * \   Merge pull request #968 from StanAngeloff/patch-1
+         | |\ \  
+b993441e | | * | Tiny spelling error, no functional changes.
+         | |/ /  
+501799e3 | * |   Merge pull request #965 from braddunbar/collection-get
+         | |\ \  
+522e0908 | | * | fixes #964 - collection.get has consistent return
+         | | |/  
+e3ac6f8e * | | Adding Collection#push, pop, shift, and unshift to the API, returning references to the model. Fixing a too-unescaped regex.
+         |/ /  
+b86cfebd * | more documentation on upgrading and change events.
+         |/  
+2eb9c505 * removing old trajectory link.
+8256cdf2 *   Merge pull request #947 from braddunbar/upgrade-notes
+         |\  
+f63b5f5d | * fixes #946 - documentation for changes to `set`
+2e40b495 * |   Merge pull request #941 from braddunbar/test-933-908
+         |\ \  
+3ef9c3a5 | * | Add tests for #908, #933.
+         |/ /  
+db97d993 * |   Merge pull request #942 from braddunbar/wraperror
+         |\ \  
+1d921d69 | * | Add tests for #906.
+         | |/  
+b8001f9b * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+         | |/  
+65fa4f45 | *   Merge pull request #940 from braddunbar/test-refactor
+         | |\  
+954da679 | | * Refactor some tests.
+         | |/  
+dfeea846 * | Adding the Khan Academy as an example app.
+         |/  
+ec7e422d * fixing typo in Wunderkit description
+0afae7cf * Adding Wunderkit as an example app.
+a865aa41 * removing obsolete error case.
+7c10181c * editing the intro
+9e3236d2 * fixing changelog typo
+655bd05b * 0.9.1 Backbone.js 0.9.1
+4337fc3f * comments for setDomLibrary
+0ffd7ea2 *   merging in setDomLibrary
+         |\  
+e97c58f5 | * Change name to setDomLibrary
+9bd086e6 | * Change from Backbone.use to Backbone.setjQuery and fix tests
+701350ab | * inject js library with `Backbone.use(myLib)`
+8a427f30 * | DRY-ing up _validate
+738e25dd * | options.silent respected in _prepareModel ... prepping for a 0.9.1
+d187f7f9 * |   Merge pull request #906 from tomasztunik/master
+         |\ \  
+bb1a7d77 | * | Fixes issue #904
+eb475386 * | | #917, adding an Model#isValid() function.
+0e709e45 * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+fc2c4ded | * \ \   Merge pull request #920 from braddunbar/$
+         | |\ \ \  
+9bdaa622 | | * | | use `$` as DOM abstraction library
+         | | | |/  
+         | | |/|   
+aafbcb05 * | | | Fixes #917 -- reverts validate() behavior to never run on silent sets.
+         |/ / /  
+ad870b25 * | | Fixes #933, Fixes #908
+799b9b3d * | | Revert "Fixes #935. ensuring that sync is triggered on the collection after the model is removed."
+0cbcdc96 * | | Fixes #935. ensuring that sync is triggered on the collection after the model is removed.
+dfc96627 * | |   Merge pull request #936 from braddunbar/nested-change
+         |\ \ \  
+17d0f12a | * | | use a while loop instead of do...while
+29a4359f | * | | fixes #915 - nested `'change:attr'` events
+         |/ / /  
+8da1ff0a * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+4d2ea14a | * \ \   Merge pull request #932 from braddunbar/save-wait
+         | |\ \ \  
+ec61503c | | * | | fixes #928 - Save sends correct attrs.
+         | |/ / /  
+c4254cb3 | * | |   Merge pull request #925 from braddunbar/falsey-haschanged
+         | |\ \ \  
+bc79feaf | | * | | passing falsey keys to `hasChanged` or `previous`
+         | |/ / /  
+c860070c | * | | refactor `_changed` to prevent confusion
+         | |/ /  
+bbee6f17 | * |   Merge pull request #909 from josscrowcroft/master
+         | |\ \  
+4ad12bcd | | * | Return `this` from View.setElement
+         | | |/  
+9d651768 * | | adding a link to the wiki of examples
+         |/ /  
+e572881f * |   Merge pull request #911 from braddunbar/validate
+         |\ \  
+7a486392 | * | ensure `options` is present
+db95e2c1 | * | fixes #907 - `save` with `wait` succeeds without `validate`
+         | |/  
+6ffd392d * | added a few missing things to the change log
+         |/  
+843eacfc *   Merge pull request #903 from tomasztunik/master
+         |\  
+73858ecf | * Removed multiple  definitions for already defined variable
+12a6fa4b * | Adding a note about the need to upgrade Underscore.js
+5ce976bf * | 0.9.0 Backbone.js 0.9.0
+8ce87539 * | leaked global
+         |/  
+62620b5a *   Merge pull request #902 from tomasztunik/master
+         |\  
+f52ef8c7 | * Fixed small leak introduced by #901
+         |/  
+da7bf992 *   Merge pull request #901 from braddunbar/add-duplicate
+         |\  
+50e8103f | * check for duplicate models/ids
+         |/  
+fb97ef1e * one more refactor...
+ef9d40aa * factor away else branch
+4b4f2c1a * missed an API regression in model.changedAttributes(), reimplementing in the same way as the original.
+a2ab3b13 * adding a section to the Backbone FAQ on extending...
+ac580caf * Fixes #892 ... make .route() chainable.
+00b2551e * Adding Stripe and Code School as example apps.
+ecba0ec5 * trying to fix animoto.png
+0bbff7de * adding Animoto.com as an example app.
+edafdeba *   Merge pull request #898 from ckorhonen/master
+         |\  
+ecd4e5ac | * Added Animoto to Examples
+e08ff142 * | fixes #64 -- mention that POST and PUT are complete in docs.
+8df28fd9 * | tweaking font-sizes / spacing a bit.
+31046e05 * |   Merge pull request #897 from dcneiner/jquery-zepto-context
+         |\ \  
+018c19a1 | * | Updated context find (`.$`) to use new cached, wrapped `this.$el`.
+e1762ed0 | * | Made minor optimization to scoped jQuery/Zepto method $ on the Backbone.View
+         | |/  
+d3459ee0 * |   Merge pull request #893 from braddunbar/change
+         |\ \  
+         | |/  
+         |/|   
+2a6624cb | * use `_.has` for Object proto props
+2f654d26 | * cache changed attributes
+db12a235 | * documentation for #893
+0d6e5f39 | * Fire `'change:attr'` from `change`
+         |/  
+028771fc * spacing out the headers a bit more
+9ad7b6a4 * re-wording the intro 'graf, adding links.
+e63fdc64 * bumping up the size of the section headers...
+da25d46c * adding pretty download link/buttons
+67a60928 * comments++
+c5ddc6b8 * fixing accidental global 'l' in loop.
+97c72a11 * Fixes #117 -- adds a section to the FAQ about Rails' preference to namespace/wrap JSON.
+3cf646b5 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+617fc7d0 | *   Merge pull request #887 from nhajratw/master
+         | |\  
+94333d2d | | * updated date
+ab164c45 * | | Overhauling 'validate' -- Receives the computed new state of the attrs, not just the delta. Now runs on model create, raising an exception if you try to 'new' and invalid model ... also runs even if changed silently.
+         |/ /  
+71641fbe * | moving the methodMap inside of the Backbone.sync section.
+3e5f7132 * | Fixes #886, pass through options.parse when creating a new collection.
+         |/  
+49804535 * Fixes #490 -- named, but not splatted params, must match at least one character.
+96a7274c * Fixes #538 -- adds Backbone.history.stop() for unit testers.
+36fde545 *   Merge pull request #872 from vovik/master
+         |\  
+c7c7b3c1 | * fixed typo in test for (presumably) equality
+a9a3499a * | linking to backbonejs.org directly
+4c1b247a * | trying new ASCII
+5962efab * | changing README to Markdown to make the new GitHub CSS happy.
+04c2d10f * |   resolved merge
+         |\ \  
+8d5f50ab | * \   Merge pull request #881 from braddunbar/ctor-args
+         | |\ \  
+66161b06 | | * | Model.constructor only take attrs, not models.
+         | |/ /  
+a7390980 | * |   Merge pull request #879 from braddunbar/set
+         | |\ \  
+         | | |/  
+         | |/|   
+3a891854 | | * setting undefined attributes
+         | |/  
+b05deb5f | * fix #871 - calling set with 'attributes' property
+910ca3c1 | *   Merge pull request #866 from braddunbar/add-tweaks
+         | |\  
+09ab8cb1 | | * Collection#add tweaks
+fc7e6ba3 | * |   Merge pull request #867 from braddunbar/equal
+         | |\ \  
+         | | |/  
+         | |/|   
+397d11e3 | | * `equals` is deprecated;  use `equal` instead
+         | |/  
+197861c0 | *   Merge pull request #865 from braddunbar/add-remove-docs
+         | |\  
+b2a2d6ff | | * `added`/`removed` should be `add`/`remove`
+         | |/  
+efa58fd2 * | making method colon style consistent -- no space before the colon.
+         |/  
+f417ddd1 * Fixes #555 -- don't return the parent constructor's value.
+252919f8 *   Merge pull request #863 from braddunbar/route-docs
+         |\  
+29c512c4 | * docs for #862
+cea56e52 * | Fixes #563. Initial draft of 'wait: true' for pessimistic instead of optimistic save() create() and destroy(). Makes it easier to have your asynchronous UI and eat it too.
+         |/  
+cdce2ec3 * DRY-ing up setElement() a bit.
+b5875ac6 * removing redundant attributes check.
+0dedb050 *   Merge pull request #862 from braddunbar/implicit-callback
+         |\  
+57ef2183 | * use implicit callback if none provided
+1c053d9f * | Fixes #567 ... Adds a view. for the jQuery cached reference to a view's element ... and this.setElement() as a way to easily change it, redelegating events.
+42d321f2 * | Fixes #570, supports Model#save(key, value)
+09110a66 * | removing erroneous console.log
+66d509f9 * | expanding the section in the FAQ explaining why Backbone doesn't model associations / nested documents for you.
+2d02a3cf * | Fixes #861, better error message for adding invalid models to a collection.
+         |/  
+7ba02756 * Fixes #574, clone 'models' before removing, so as to allow collection.remove(collection.models)
+ff176ac6 * reverting previous change (#859)
+05a45d3e *   Merge pull request #859 from ekratskih/master
+         |\  
+07ba2d53 | * Simple refactoring
+32b2f28b | * Cross domain issue patch for old ie browsers (<=7)
+61fc127f * |   Merge pull request #858 from braddunbar/trigger-multiple
+         |\ \  
+9df6387d | * | trigger all for each event
+         |/ /  
+9c0e7f00 * |   Merge pull request #857 from braddunbar/events-documentation
+         |\ \  
+920d0471 | * | Documentation for Backbone.Events
+2dce4132 * | | Adding options.index to Collection#add and #remove.
+         |/ /  
+34e0f7fb * | Fixes #582, fixes #425, run a second loop to trigger change:attribute events after all changes have been made.
+3f0979f0 * | Fixes #593 -- pass complete options to model constructor on create()
+9c62b26e * | Fixes #629, documents how easy it is to make event dispatching objects.
+32e5ab7a * | Fixes #634, documentation of emulateHTTP
+4316b04f * | allow the passing of any number of arguments to Model#initialize
+5aa4fda9 * | Fixes #640 -- adds the ability to bind/unbind/trigger (on/off/trigger) multiple, space separated events, after jQuery.
+51335bf1 * | Fixes #641 -- on and off are now the preferred names for bind and unbind, following jQuery.
+b28a2420 * | fixes #651 -- always clone options.
+5b43cd9d * | Fixes #419 -- add a global 'route' event, on Bacckbone.history.
+a78be626 * | Fixes #702: adds 'initial' and 'shuffle' to Backbone collections.
+a8bd142b * | Fixes #714, assign model.collection early, so that those overriding set() can use it from the get-go.
+7c7f550a * | adding a favicon
+a881ba6f * | Fixes #720, document 'constructor'
+837f774f * | lint/style tweaks to prev commit.
+159e51e8 * |   Merge pull request #723 from braddunbar/bind-during-trigger
+         |\ \  
+47e1f7e6 | * | (un)bind does not alter callback list during trigger
+8c03df50 * | | Fixes #783 -- adds a 'sync' event, fired whenever a successful call has been made to update the server.
+         |/ /  
+d5ff5e32 * | Fixes #786 (and others) -- leading slashes should never be defined as routes, or passed to navigate ... so strip 'em out proactively.
+328cb666 * | Fixes #803, allows you to opt-out of hashchange, while opting-in to push state, using full-page refreshes for old browsers.
+a49bb4f3 * | Fixes #811 -- allow you to pass a context when unbinding events as well.
+d514f2b4 * | fixes #814 -- load initial models after Collection#initialize, not before.
+93cb997f * | removing overzealous events setting API.
+feefb1c3 * |   Merge pull request #815 from zowens/master
+         |\ \  
+cd18a968 | * | adding docs for events function
+b081fe87 | * | view events can now be a function that returns an events object
+1c158747 | * | allowing view events to be functions instead of simply names of properties on a view
+88e6b32b * | | Fixes #822, change comment to avoid 'confusing' reference to super
+4d29dfc3 * | | Fixes #823, mention 'attributes'
+cee62e65 * | | Fixes #826 -- expose Backbone.wrapError.
+47196592 * | | Fixes #841, adding upgrading jquery, classname --> class in the docs.
+1d90bb9c * | | binding the comparator function before using it, so that you can rely on properties of your collection within it.
+a8dbe4ef * | |   Merge pull request #854 from braddunbar/inline-add-remove
+         |\ \ \  
+4dd506c3 | * | | more descriptive variable name
+f329cbff | * | | only increment length once
+         |/ / /  
+8cfb243b * | | Fixes #836, Fixes #708 -- going back to previous stance: two models with the same id can't be added to the same collection.
+cb7090db * | | fixes #838 -- allow View#attributes to be defined as a function, as well as a value.
+d3ae0aa9 * | | Fixes #839
+3cbd7909 * | | clarifying paragraph for #843
+bf1ffbeb * | | nice refactor. removed _add and _remove and moved 'em in to the public API.
+eb868b66 * | |   merging in #846
+         |\ \ \  
+c8919c4b | * | | collection.add should not alter models array
+1ffae591 | * | | only call splice once instead of on each add
+2312b907 * | | | adding a test to ensure that routes aren't triggered multiple times. #849
+933469a2 * | | |   Merge pull request #851 from mickeyreiss/master
+         |\ \ \ \  
+478aaf3d | * | | | Switched order of delegateEvents and initialize in Backbone.View constructor in order to allow for explicit setting of this.el in initialize (and ensure that events are bound correctly).
+1675e76c * | | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \ \  
+68d95c82 | * \ \ \ \   Merge pull request #852 from braddunbar/no-bindall
+         | |\ \ \ \ \  
+         | | |/ / / /  
+         | |/| | | |   
+61b27793 | | * | | | no need to _.bindAll _onModelEvent
+         | |/ / / /  
+df716504 * | | | | Documentation request in #599
+         |/ / / /  
+780ddd39 * | | | Adding Diaspora as an example app.
+         |/ / /  
+1715c181 * | | Fixes #81 -- optimize for addition of large arrays of models, not for individual inserts.
+6b3ff7b0 * | | Fixes #9, Backbone comparators can now be either sort() or sortBy() iterators.
+44bb57a2 * | | being a bit stricter about comment wrapping at 80 chars.
+060da2b9 * | |   Merge pull request #842 from braddunbar/hasChanged-comparison
+         |\ \ \  
+934aba4c | * | | hasChanged/set should use the same comparison
+d06e8a68 * | | | Adding Picplum as an example app
+9a56d525 * | | | streamlining idAttribute documentation.
+7420342d * | | |   Merge pull request #821 from iros/819.idAttribute
+         |\ \ \ \  
+1591c429 | * | | | Added navigation link
+a04c2481 * | | | |   Merge pull request #820 from iros/819.idAttribute
+         |\ \ \ \ \  
+         | |/ / / /  
+57015691 | * | | | #819 documenting idAttribute. Also requested on pull req #210.
+         |/ / / /  
+4226d587 * | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \  
+061fd3ba | * \ \ \   Merge pull request #809 from islandr/master
+         | |\ \ \ \  
+         | | |_|/ /  
+         | |/| | |   
+93a39110 | | * | | Use getValue to interpret urlRoot instead.
+9374fe5a | | * | |   Merge branch 'urlrootasfunction'
+         | | |\ \ \  
+         | | | |_|/  
+         | | |/| |   
+b4e650b9 | | | * | A model's urlRoot can now be a function allowing definition at runtime.
+         | | |/ /  
+a9fcd9b3 | * | |   Merge pull request #807 from iros/qunit.force.order
+         | |\ \ \  
+         | | |/ /  
+         | |/| |   
+9d145abf | | * | Forcing quint test execution order.
+         | |/ /  
+04cb79a5 | * |   Merge pull request #805 from fabiomcosta/patch-1
+         | |\ \  
+9e80ca14 | | * | \w still includes \d http://www.regular-expressions.info/charclass.html#shorthand
+         | |/ /  
+d644a4bc | * |   Merge pull request #804 from davidmurdoch/patch-1
+         | |\ \  
+6ccdbb3a | | * | Optimize regular expressions. The capture groups aren't needed/used; the character classes will do the job just fine.
+         | |/ /  
+ee305c46 * | | Fixes #818
+         |/ /  
+cda555ac * | Adding Posterous Spaces as an example app
+dd83f205 * | Fixes #788
+c3852b8c * | unifying property-or-function logic.
+         |/  
+d806f7e1 * fixing commit note bug.
+a50b7143 * Fixes #792
+1400eea1 * Fixes #732
+1626fa74 * Fixes #734
+64d8fd6c * merging in ducksboard.
+14dd2015 * Add Ducksboard as an example app.
+e10525d4 *   Merge pull request #772 from rgieseke/master
+         |\  
+fd78dbf1 | * Only remove single '#' when getting URL fragment.
+dcc041ab * |   Merge pull request #773 from judofyr/model-parse
+         |\ \  
+         | |/  
+         |/|   
+67f689df | * Col.fetch() should create models with parse:true:
+bdbcfa9d | * parse:true runs the attributes through parse():
+         |/  
+8adac913 *   Merge pull request #769 from lmp/master
+         |\  
+1a06f9a2 | * Bugfix: replace hash should not append hash mark to javascript:0
+         |/  
+e8c1ce71 *   Merge pull request #761 from d2s/master
+         |\  
+db8d85e2 | * Update two links at index.html to latest URLs
+         |/  
+c785ecb1 *   Merge pull request #759 from lmp/master
+         |\  
+42ee70e9 | * Update remaining call to _updateLocationHash to _updateHash
+9fc7443d * | merging in #758 -- although the API leaves something to be desired.
+43c815ae * |   Merge branch 'master' of https://github.com/TMaYaD/backbone
+         |\ \  
+         | |/  
+         |/|   
+2d2198c3 | * Return the jquery object for el when this.$ is called without argument
+6687cde1 * | merging in #739 -- a massive simplification.
+bc9fbcbe * |   Merge branch 'set-unset-clear' of https://github.com/braddunbar/backbone
+         |\ \  
+7658021e | * | simpler arg parsing
+d87144d6 | * | unset accepts var args
+0c08ab81 | * | bail immediately if !this._changed
+93ad86cf | * | add tests for #730 and #565
+66d209d4 | * | unit test for ignore values when unsetting
+12b11410 | * | ignore values when unsetting
+368953eb | * | implement unset/clear in terms of set
+3f004196 | * | assert that change is only triggered once
+41853416 * | | Fixes #674 -- pass options through to validate()
+         | |/  
+         |/|   
+1332246b * | merging in #750 -- support for replaceSTate
+30a89ac5 * |   Merge branch 'replaceState' of https://github.com/lmp/backbone
+         |\ \  
+df7c279d | * | Navigate learns to change the route without adding a history entry
+f5acb6d2 * | | hardlining the sidebar line for Lion.
+cfc5b1f3 * | | updating copyright dates
+7f80359e * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+b2cf0dc8 | * | | Update index.html
+6df60709 | * | |   Merge pull request #755 from alonsogarciapablo/master
+         | |\ \ \  
+9cbf87e9 | | * | | Fix typo in Backbone.Collection documentation
+         | |/ / /  
+66800f5c * | | | Upgrading our Underscore.js test dep to 1.2.2
+         |/ / /  
+fa96a37e * | | tweaking link
+da935294 * | | Adding Slavery Footprint as a Backbone.js example app
+61246a7c * | | Adding Grove.io as an example app
+4f9cf93c * | | adding foursquare as an example app, plus new logo
+         |/ /  
+1d41b452 * | merging in the new backbone.js logo
+49b532bd * | removing the ol' upgrading section from the docs.
+06e08261 * | Adding Do.com as an example app.
+478ef5c4 * |   Merge pull request #736 from braddunbar/nested-set
+         |\ \  
+         | |/  
+20a2e340 | * set _changing = false only if !alreadyChanging
+7ece4ef2 * | Revert "fixing whitespace consistency for #718"
+0ccbba77 * |   Merge pull request #733 from wookiehangover/whitespace
+         |\ \  
+a0843bb2 | * | fixing whitespace consistency for #718 	all functions are formatted as such: `function(args) { ...`
+         |/ /  
+d9f44798 * |   Merge pull request #721 from TrisMcC/fix-model-trigger
+         |\ \  
+         | |/  
+         |/|   
+da51087d | * Trigger error on originalModel not model
+f9ae1a16 * |   Merge pull request #722 from jasonm/jm-format-function-defs
+         |\ \  
+         | |/  
+         |/|   
+becb8261 | * Make function definition formatting consistent
+         |/  
+7070c27d *   Merge pull request #717 from JustinDrake/patch-1
+         |\  
+f17747e0 | * This means that after unbinding every event, a trigger call will return faster, because !(calls = this._callbacks) will evaluate to true.
+         |/  
+eec7d2ac * Adding AudioVroom as an example app.
+3392d5fb * relying on _.escape, and fixing a lint problem.
+18be7107 * fixing broken comparison.
+35600be5 *   Merge branch 'events' of https://github.com/braddunbar/backbone
+         |\  
+6da06836 | * create empty tail as an invariant
+de243055 | * implement callbacks as linked list
+39061ff4 * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+fdbd3ee0 | * \   Merge pull request #705 from oldAdam/master
+         | |\ \  
+         | | |/  
+         | |/|   
+0cd5b938 | | * Fix Todos example by importing the currently shipped version of jQuery that is located in /test/vendor.
+         | |/  
+2156b9e2 | *   Merge pull request #699 from jasonm/jm-bump-qunit
+         | |\  
+6717e428 | | * Bump jQuery test suite dependency from 1.5 to 1.6.4
+c336e4b3 | | * Update QUnit
+e2f13502 | | * gitignore vim swapfiles
+9982e314 | * |   Merge pull request #700 from iros/673
+         | |\ \  
+80769fcf | | * | #673 - Adding index as a property on the options object that gets passed when the add/remove callbacks get triggered on a collection.
+fbffb368 | * | |   Merge pull request #698 from alexgraul/master
+         | |\ \ \  
+         | | |_|/  
+         | |/| |   
+afc2d99b | | * | nicer again
+79eea1dc | | * | better method names
+970ce076 | | * | fix for wrapped errors inside success callbacks on save, issue #690
+5ebbeb0c * | | | Fixes #659
+b2407efb * | | |   Merge branch 'router_no_callback' of https://github.com/derickbailey/backbone
+         |\ \ \ \  
+         | |/ / /  
+         |/| | |   
+6799c8e8 | * | | added a test and code to allow a router to define a route with no callback method for the route name
+8478567e * | | | Needs testing, but fixes #686, fixes #592, and probably others -- allow you to override any $.ajax options.
+c37e2f9b * | | |   Merge branch 'master' of https://github.com/alexgraul/backbone
+         |\ \ \ \  
+         | | |/ /  
+         | |/| |   
+567e0a3c | * | | Fix for adding models with custom set methods to collections, issue #539
+de740f8a * | | | Fixes #552 #693, allowing unset to work with changedAttributes()
+b4f680e3 * | | |   Merge branch 'master' of https://github.com/iros/backbone
+         |\ \ \ \  
+         | | |_|/  
+         | |/| |   
+2be77141 | * | | Setting _unsetAttributes to false in unset rather than changedAttributes so that the unset attributes aren't lost on subsequent calls of changedAttributes. Added test to verify this behavior.
+d50c5e98 | * | | Adding a _unsetAttributes property on model that stores unset attributes and appends them to the changedAttributes object.
+f6a73ff2 | * | | Reducing the amount of properties we are iterating over by removing the old properties that already exist in now. To do that, previousAttributes had to be cloned. Changing "void 0" return to "undefined".
+f499fc8c | * | |   Merge branch 'master' of github.com:spmason/backbone
+         | |\ \ \  
+         | | |_|/  
+         | |/| |   
+98877ff4 | | * | Fix for unset attributes not being returned by changedAttributes
+5310996d | | * | Test for unset attributes not being returned by changedAttributes
+d94cfe50 * | | | Fixes #689, documenting the need to resort collections with comparators.
+         | |_|/  
+         |/| |   
+32ae1132 * | | upgrading to the latest version of Underscore.
+         |/ /  
+41e47032 * | forcing a git commit
+fa66a222 * | Adding battlefield as an example app.
+31d961b6 * |   Merge pull request #620 from leshill/clear_events
+         |\ \  
+ef40512d | * | Rename to undelegateEvents
+1aaffa13 | * | Clear event callbacks with clearEvents
+         |/ /  
+c62e6136 * |   Merge pull request #617 from rgieseke/patch-1
+         |\ \  
+d2eee2ad | * | Fix typo.
+         |/ /  
+291863df * |   Merge pull request #599 from walmartlabs/root-handling
+         |\ \  
+b20f54f2 | * | Fix root prefix handling in navigate.
+6ed5e45a * | | Issue #613 .. only call history.start() on domready.
+e8519f7a * | | Adding Kicksend as an example app.
+08a97592 * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+5f8e7044 | * \ \   Merge pull request #607 from two-bit-fool/misc_cleanup
+         | |\ \ \  
+         | | |/ /  
+         | |/| |   
+9ba9cefd | | * | fix a small error in the documentation
+         | |/ /  
+16f4857f | * |   Merge pull request #597 from keithcirkel/patch-1
+         | |\ \  
+123b92e4 | | * | Fix incorrect variable name on docs for delegateEvents
+         | |/ /  
+ec17af0a * | | Adding Trello as an example app.
+         |/ /  
+78a626da * | Adding rround.me as an example app
+190bc006 * | Adding Salon.io as an example app.
+38d1e96a * | Adding Opzi/Blackcomb as an example app.
+ce397350 * |   Merge pull request #572 from fat/ender
+         |\ \  
+084e0288 | * | add support and tests for ender jeesh
+cfc98b0f * | | Tiny tweaks to the todo app demo.
+         |/ /  
+9de6c3ea * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+fa12ed0f | * \   Merge pull request #568 from TrisMcC/master
+         | |\ \  
+49645de2 | | * | Fixed misspelled word in comments for _ensureElement.
+         | |/ /  
+b2051a8a * | | Adding Shortmail.com as an example app
+         |/ /  
+467dd146 * | Adding LinkedIn Mobile as an example app.
+         |/  
+b1822a7b * updating the intro graf for the Router.
+29b60e53 * 0.5.3 Backbone.js 0.5.3
+44629daa * patching a pernicious pushstate problem.
+8fe04a95 *   Merge pull request #541 from tbranyen/silent-start
+         |\  
+b1574b10 | * allow history start to not call initial route
+         |/  
+a1acb09d *   Merge pull request #537 from asan/master
+         |\  
+3b686483 | * Added 'groupBy' to underscore proxy methods
+         |/  
+6bb43c1b * fixes #244 -- allow View#events to be defined as a function, making it easier to call super.
+10e71e31 * Fixes #531, reverts 39b36af
+5dc001f3 * Adding Groupon Now as a backbone example app.
+55bbbd46 * copy edits on the previous commit
+59dc74cd * Adding Americas Test Kitchen + Talking Points Memo's Baroque as example apps
+541f0fad *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+b4f0afcb | *   Merge pull request #512 from neerajdotname/master
+         | |\  
+960a1c84 | | * Edited comment
+c7e195b4 * | | copyedits: typos and word choice
+         |/ /  
+89bdddde * |   merging the jcoglan's patch
+         |\ \  
+f77033d3 | * | Remove coupling from model to view in example app by listening to model's 'destroy' event to remove the view.
+f399b046 * | | some Markdown snuck in.
+41a6a0f7 * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+         | | |/  
+         | |/|   
+ebf9dd9b | * |   Merge pull request #509 from devinhunt/master
+         | |\ \  
+b85c116c | | * | Ajax.processData is left as the default if emulateJSON is set to true
+aa0eff94 * | | | Adding a Tim Toady section to the FAQ
+         |/ / /  
+f7c23e49 * | | Adding Hotel Tonight as a Backbone example.
+7bfc9b83 * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+         | |/ /  
+22456de2 | * | whitespace
+fb60bf5d | * |   Merge pull request #507 from shesek/patch-4
+         | |\ \  
+39b36afd | | * | Setting to context to `this` by default on bind() instead of trigger()
+         | |/ /  
+e1489484 * | | Adding Pandora and Blossom as backbone examples.
+         |/ /  
+9d2811a6 * | 0.5.2 Backbone.js 0.5.2
+49a16bdd * |   Merge pull request #500 from keithcirkel/master
+         |\ \  
+6ef6f759 | * | Add a third "context" argument to Backbone.Event.Bind which, when passed, will bind the callback to the provided context.
+d8ef258d * | |   Merge pull request #503 from cdmwebs/master
+         |\ \ \  
+         | |/ /  
+         |/| |   
+3145b4db | * | isNew should use id, not idAttribute
+         |/ /  
+77239753 * | Adding SeatGeek as an example
+5271e7ac * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+63a4be92 | * \   Merge pull request #497 from rsim/return_immediately_after_redirect_to_hash_route
+         | |\ \  
+b32a34c5 | | * | do not call loadUrl when redirecting to hash based URL on non-push state browser
+         | |/ /  
+a6a478fd | * |   Merge pull request #495 from tbranyen/isNew
+         | |\ \  
+         | | |/  
+         | |/|   
+70cc8ee8 | | * updated model isNew to use idAttribute
+         | |/  
+bc3daff7 * | Adding Trapit as an example app.
+         |/  
+ca8a0491 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+bc964ac3 | *   Merge pull request #469 from afeld/patch-1
+         | |\  
+78168616 | | * processData should use ajax default (true), and only be set to false when doing a non-GET request
+8b3ca51e | * |   Merge pull request #481 from shesek/master
+         | |\ \  
+909c427c | | * | Call Backbone.Model.defaults() with "this" set to the model instance.
+         | |/ /  
+48cfa5a8 | * |   Merge pull request #470 from wuzhe/upstream-master
+         | |\ \  
+         | | |/  
+         | |/|   
+8ffdd09b | | * Fix an unclosed HTML entity when escape single quote
+         | |/  
+3f8f4cfb * | Adding Trajectory as an example app
+         |/  
+6d07d2f0 * multiple models with the same ID should be allowed in a collection.
+36dddfbe * 0.5.1 Backbone.js 0.5.1
+d2e79e5a *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+69e63b18 | *   Merge pull request #457 from asan/master
+         | |\  
+c87460eb | | * Fixed back button issue then open pushState link in browser without pushState support
+961d5997 | * |   Merge pull request #448 from braddunbar/contains
+         | |\ \  
+c4872c43 | | * | add 'contains' alias for 'include'
+da6d0b90 * | | |   resolving merge conflict, removing old test.
+         |\ \ \ \  
+         | |/ / /  
+         |/| | |   
+d3a0b646 | * | | remove model_with helper from test
+12e9d95b | * | | add helper method to cleanup isNew test
+4595b48f | * | | refine the isNew test
+8971361b | * | | split out test for positive and negative ids
+5ebd949c | * | | use hash literal directly
+13acb8a8 | * | | fix documentation and tests for negative ids
+10230e4d * | | | Issue #460 -- removing the optional bang from hashStrip ... too many inconsistencies.
+fcbedad8 * | | | Addinga a test case for #459
+d3c9a9b0 * | | | fixes #459, inconsistency with constructor/initialize.
+         | |_|/  
+         |/| |   
+cbefdb8a * | | Fixes #454, docs for backbone.sync
+a30ea0df * | | Fixes #453, typo.
+3a56d366 * | | expanded docs for pushState
+d2082a54 * | | issue #451 + test.
+c39ddd0c * | | Better hash-to-pushState upgrades, via replaceState.
+dc84cc6a * | | docs tweaks.
+799cdadf * | | updating generated docco for pushState upgrading.
+0798d976 * | | 0.5.0 tweaking transparent URL upgrades.
+2e1f85d8 * | | replacing setLocation and saveLocation with navigate, after Spine's API.
+8f07f966 * | | link to association extensions.
+af674c98 * | | almost to 0.5.0...
+ddf1a833 * | | slightly saner validation on initialize.
+e67422ad * | | restoring some examples.
+1491d292 * | |   Merge pull request #395 from lorensr/master
+         |\ \ \  
+         | |_|/  
+         |/| |   
+2ed2af66 | * | expanded Model.save example
+245acb08 | * | removed unused var
+b28bb505 | * | clarified example; fixed typo
+b5112b40 * | |   Merge pull request #414 from niallsmart/master
+         |\ \ \  
+0853866a | * | | Collection.add should fail if duplicate id/cid exists
+         | |/ /  
+cc46300a * | | Issue #417. Word choice for the literal minded.
+77caaed5 * | | #426, better error message when events are missing.
+ba1d9a1e * | | removing complex router text (unfixable)
+4138b581 * | |   Merge pull request #430 from reconbot/master
+         |\ \ \  
+621c9edf | * | | Test complex query strings. Fails in some browsers.
+07f753be * | | |   Merge pull request #435 from threepointone/patch-1
+         |\ \ \ \  
+3eb075a2 | * | | | Allow initialize on any class to pass on original arguments.
+fa6092be * | | | | fixing comment.
+0b74a24b * | | | |   Merge pull request #438 from gravof/master
+         |\ \ \ \ \  
+         | |/ / / /  
+         |/| | | |   
+4e9037b0 | * | | | Model is no longer considered to be new if its id is a falsey value
+573c3475 | * | | | Fix unit test for model.isNew()
+         |/ / / /  
+7ed20d79 * | | |   Merge pull request #432 from jroes/master
+         |\ \ \ \  
+16eb3f3d | * | | | Minor doc typos
+         |/ / / /  
+d2a73099 * | | |   Merge branch 'gh-pages'
+         |\ \ \ \  
+61c48748 | * | | | Adding Decide.com as an example.
+e1167d7c * | | | |   Merge pull request #422 from arturadib/master
+         |\ \ \ \ \  
+         | |_|/ / /  
+         |/| | | |   
+3e4f6284 | * | | | Minor doc typo
+         |/ / / /  
+32deec57 * | | |   Merge branch 'gh-pages'
+         |\ \ \ \  
+         | |/ / /  
+6ca2dc61 | * | | adding quoteroller
+9bdbdd8e * | | |   merged in gh-pages
+         |\ \ \ \  
+         | |/ / /  
+         | | / /   
+         | |/ /    
+         |/| |     
+40575910 | * | Adding Chop, Fluxiom, And Menagerie Vet
+2620c6a5 * | | Adding Chop as a Backbone example.
+d5683052 * | | adding headers for all Backbone.js example apps
+ff57b653 * | | ouch, leaking global attrs. (shakes fist)
+93c82aad * | | Adding the Unofficial google group to the documentation.
+e01ad9dd * | |   Merging in #232. Allow destroy() to be called on non-persisted objects ... just in case.
+         |\ \ \  
+5a89ed32 | * | | destroy of non-persisted model should not call sync
+87a81e43 * | | | partial issue #239, always pass options to error callbacks / events.
+482a1153 * | | | better document that hasChanged, previous, etc are only valid during a change event. Issue #240
+9accf97e * | | | Issue #246 -- never fire nested change events for the same model. The top-level one will do.
+ed636326 * | | | Issue #250 -- duplicated QUnit.
+fb8da91e * | | | merging in #336.
+dae25271 * | | |   Merge branch '0.5.0'
+         |\ \ \ \  
+d7e3d5bf | * | | | Updated to apply on the 0.5.0 branch
+f7602a30 | * | | |   Merge branch 'patch-1' of https://github.com/damienholzapfel/backbone into 0.5.0
+         | |\ \ \ \  
+7afd43c0 | | * | | | Reference calls variable in list variable definition in Backbone.Events.bind
+c66650ab | * | | | |   Merge branch 'master' of https://github.com/corbanbrook/backbone into 0.5.0
+         | |\ \ \ \ \  
+9d5308b1 | | * | | | | Pass options to the coll.add call in Collection::create so that it can work silently.
+082cb28b | * | | | | |   Merge branch 'master' of https://github.com/reconbot/backbone into 0.5.0
+         | |\ \ \ \ \ \  
+82c288c9 | | * | | | | | Following recommendations from the OWASP https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
+         | | |/ / / / /  
+5f7b01d9 | * | | | | | document collection.reset() with no args.
+d8d94f13 | * | | | | | add a warning about pass by reference. Issue #356
+2f044736 | * | | | | | fixing refresh -> reset documentation.
+78212c2b | * | | | | | Issue #359 -- removing duplicate model.escape documentation.
+9503627e | * | | | | | documenting that fetch options can also be jquery options.
+2b1eae4d | * | | | | | Issue #365. delete options.comparator.
+9a1deb61 | * | | | | | mention that Backbone require's jQuery > 1.4.2, if using jQuery. Issue #367.
+46fbd4cd | * | | | | | Controller -> Router in the docs, and adding docco for setLocation().
+e56346c7 | * | | | | | normalizing for the Safari window.location bug.
+f742bbe9 | * | | | | | fixing IE support for 0.5.0
+e9b38de4 | * | | | | | Backbone.Router formatting, tweaks.
+e5ee5503 | * | | | | | Adding Backbone.Router.setLocation, alongside saveLocation, to both save and route at once.
+636e7b00 | * | | | | | remove an extraneous this.options
+300c7f0e | * | | | | | fix the zepto test suite.
+cf321513 | * | | | | | initial draft of a 0.5.0 branch
+6b229ff9 * | | | | | |   Merge remote branch 'remotes/upstream/master'
+         |\ \ \ \ \ \ \  
+         | |/ / / / / /  
+e8476afe | * | | | | | Issue #366, support for namespaced events.
+489ebb70 | * | | | | | Issue #228 ... IE7 hash should look correct after initial load.
+a2518103 | * | | | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\ \ \ \ \ \  
+         | | |/ / / / /  
+82e0b34a | | * | | | |   Merge pull request #267 from jasondavies/master.
+         | | |\ \ \ \ \  
+ee2ec921 | | | * | | | | Fix typo
+83250a5a | | | * | | | | Only set request content type for create/update
+         | | | | |_|_|/  
+         | | | |/| | |   
+a5d01f91 | * | | | | | fixing tests for IE / Webkit ... regex, not string match.
+         | |/ / / / /  
+d8edb5d0 | * | | | |   Merge branch 'gh-pages'
+         | |\ \ \ \ \  
+         | | | |_|_|/  
+         | | |/| | |   
+bbf28b82 | | * | | | expanding the FAQ for MVC with a direct Rails comparison.
+7489bf03 | * | | | |   Merge branch 'gh-pages'
+         | |\ \ \ \ \  
+         | | |/ / / /  
+         | | | | / /   
+         | | |_|/ /    
+         | |/| | |     
+bbce120b | | * | | Adding the bittorrent example app.
+db68321e | | * | |   resolving merge
+         | | |\ \ \  
+c9bf20e4 | | * | | | Adding CloudApp to the list of examples.
+965c2992 * | | | | | Factor out model preparation to a separate function in Backbone.Collection, so 'create' and 'add' behave the same.
+9b40c7aa * | | | | |   Merge branch 'master' of git://github.com/documentcloud/backbone
+         |\ \ \ \ \ \  
+         | |/ / / / /  
+58708b3c | * | | | | clarifying wording
+089aeb83 | * | | | | Adding a note about using Collection.create on a model that has been saved server-side.
+a00b7983 | * | | | | Adding in a note about Backbone.history.start() returning a boolean for whether or not a match has been found in the current URL fragment. Thanks to XiXora for the recommendation.
+f44cfeeb | * | | | | Adding in a note about passing in an object literal or a model to Collection.create. Thanks to MattJ for the recommendation.
+ee215be0 | * | | | |   Adding test for hashbang URLs. For pull request #312.
+         | |\ \ \ \ \  
+914ff9dd | | * | | | | rebuild to include previous change
+21fa0aa6 | | * | | | | change hashStrip regex to strip bang as well, so hash-bang urls will work transparently
+0cc8cb08 | * | | | | |   Merge https://github.com/ptn/backbone
+         | |\ \ \ \ \ \  
+0f118ecb | | * | | | | | Add a failing test for Collection.create not running callbacks
+1598801f | | * | | | | | Pass the error and success callbacks when creating the model to add to a Collection
+577758af | * | | | | | | Adding XHR object to Collection.create (which comes from Model.save).
+399e7453 | * | | | | | | _ to status in Model.parse. No need to clobber Underscore.js just to ignore a parameter.
+4881621a | * | | | | | | Adding XHR object to Model.parse and Collection.parse method signatures. jQuery and Zepto use the same callback signature: response, status, xhr.
+1d4484d1 | * | | | | | | Removing Ender.js support for the time being, as it needs to fix its AJAX methods to corrospond with jQuery/Zepto success/error signatures.
+         | |/ / / / / /  
+0503b4d1 * | | | | | |   Merge remote branch 'remotes/upstream/master'
+         |\ \ \ \ \ \ \  
+         | |/ / / / / /  
+222d673d | * | | | | | Issue #289. Enable the use of jQuery.Deferred by returning Deferred objects from save() and fetch() calls.
+37ddad50 | * | | | | | Issue #309, more sophisticated event handling, for unbinding events in the midst of them firing.
+9159ed35 | * | | | | | clarifying that jQuery or Zepto is required for History support (for the moment)
+857f7565 | * | | | | | removing backbone-min from master ... it'll only live on the gh-pages branch now.
+76b3ed1f | * | | | | |   Merge branch 'fix_custom_events_on_models_inside_collections' of https://github.com/autohaus24/backbone
+         | |\ \ \ \ \ \  
+1499d755 | | * | | | | | Check for model before accessing its properties, fixes #319
+223c4fb2 | | * | | | | | Add failing test for #319
+         | | |/ / / / /  
+4070364e | * | | | | | merging in Ender.js support
+5f3135f1 | * | | | | |   Merge branch 'master' of https://github.com/dvv/backbone
+         | |\ \ \ \ \ \  
+94edc63f | | * | | | | | ender.js support
+         | | |/ / / / /  
+12661ff1 | * | | | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\ \ \ \ \ \  
+         | | |/ / / / /  
+f4cfbd63 | | * | | | | Documenting the new Backbone.noConflict() method.
+1028e63f | | * | | | |   Merge branch 'gh-pages'
+         | | |\ \ \ \ \  
+         | | | | |/ / /  
+         | | | |/| | |   
+35ba4a92 | | | * | | | Adding Flow to sidebar under Examples.
+fd35fcb6 | | | * | | | Adding MetaLab's Flow to the examples.
+         | | | |/ / /  
+e2a5c183 | | | * | | Adding Mobile SoundCloud as an example.
+67d61fc3 | | * | | | Adding Backbone.noConflict() and keeping track of the original root.Backbone.
+7b494c1e | * | | | | Upgrading to Underscore 1.1.6 for test deps.
+         | |/ / / /  
+7d881624 * | | | | Even simpler; merely expose the (jq)XHR object, enabling the use of jQuery.Deferred.
+8f80fb1f * | | | | A somewhat smarter approach (more DRY).
+ed5a88d4 * | | | | Make it possible to take advantage of jQuery.Deferred with Backbone, without breaking compatibility by changing return values.
+         |/ / / /  
+da52ae1c * | | |   Merge branch 'fix-comment' of https://github.com/jimmydo/backbone
+         |\ \ \ \  
+7ceab2ca | * | | | Fix incorrect prototype.constructor comment
+         | | |/ /  
+         | |/| |   
+c9a63498 * | | | Upgrade tests to Zepto 0.5
+d149451f * | | | Issue #278. Allow 'extend' to be overrideable+inheritable.
+d97d8bf3 * | | | Upgrading Backbone.js tests to Underscore 1.1.5
+         |/ / /  
+0cdc5259 * | | Fixed escapeHTML function to skip not only &***;, but also &#***; and &x***;
+7216d993 * | |   merged gh-pages in.
+         |\ \ \  
+         | |/ /  
+         | | /   
+         | |/    
+         |/|     
+52953c14 | * Adding mql's Substance.io
+6c968b65 | * Issue #224 ... underlining links, updating docs.
+f4a394b9 | * Issue #223 ... fixing json2.js link.
+0ca0481a | * adding basecamp mobile, instagreat, and tilemill
+02c40e55 | * linking to the documentcloud workspace
+ce059570 | * .get -> .escape in the docs
+a5079aba * | merging #179 + refactor, view 'attributes' for this.el
+512ff7e7 * |   Merge branch 'master' of https://github.com/hippich/backbone
+         |\ \  
+ece686de | * \   Merge branch 'master' of https://github.com/documentcloud/backbone
+         | |\ \  
+c3da552f | * | | Add attributes parameter to Backbone.View. All attributes are being applied to view's this.el during element creation.
+4489d7f5 * | | | Merging in a test for Issue #204
+aab49ebd * | | | encodeURIComponent this.id
+c6d2c69d * | | | ditto
+c5160fca * | | | fixing lingering idAttribute spot -- thanks, jdknezek
+b86d3f6a * | | | Issue #209 ... unsetting a missing attribute should not fire a change event.
+1a9404cf * | | | Initial support for models with non-default id attribute names (MongoDB, CouchDB). Various tickets.
+d04bf67b * | | | Fixing test-zepto.html HTML.
+164ad725 * | | | Upgrading Backbone.js (test) dependencies to latest jQuery, Zepto, and Underscore.
+ac8c3dd9 * | | | Changing route order behavior. Issue #189. Declarative route maps are the same, procedural route() calls can now override previously-defined routes.
+ec684200 * | | | Merging in #167, unsetting 'id'
+0383ef78 * | | |   Merge branch 'unset_id' of https://github.com/reverie/backbone
+         |\ \ \ \  
+2fd11a8f | * | | | delete this.id when unsetting the id attribute
+7d4d527c * | | | | No periods on errors.
+f1e0f6b5 * | | | | Throw an error if Backbone.history.start is called twice.
+1944234c * | | | |   Merge branch 'master' of https://github.com/jed/backbone
+         |\ \ \ \ \  
+e398583d | * | | | | keep custom `sync` methods for a given model/collection scoped to `this`.
+51f9ce6b * | | | | | Adding an index.js for npm, Issue #207
+4c41ea7c * | | | | | Merging issue #216 (+ others) validation on Collection#create.
+7442f826 * | | | | | Forcing Collection.create to run through validation before saving.
+         |/ / / / /  
+79b33ae7 * | | | |   Merge branch 'gh-pages'
+         |\ \ \ \ \  
+         | | |_|_|/  
+         | |/| | |   
+36198445 | * | | | Adding CloudEdit as an example.
+a2f04685 * | | | | merging in fixes for models in multiple collections ...
+14000a8b * | | | | Improve multiple collection support
+65f68309 * | | | |   merging in tzigla example.
+         |\ \ \ \ \  
+         | |/ / / /  
+         | | | | /   
+         | |_|_|/    
+         |/| | |     
+d4a091b0 | * | | Adding Tzigla to the examples.
+0c033312 | * | | Pushing the QuietWrite.com example.
+06a15062 | * | | Adding FAQ section for bootstrapping
+f194f2d5 | * | | adding an FAQ section.
+39cabb8a * | | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \ \  
+         | | |_|/  
+         | |/| |   
+440d1415 | * | | Fixing a small bug in model inheritance: Class properties need to be inherited (along with the instance properties). See test.
+         | | |/  
+         | |/|   
+289d4e00 * | | Model::escape() now coerces non-string (non-falsy) values to strings before escaping them.
+         |/ /  
+c9332625 * | Adding QuietWrite.com as a Backbone example.
+178887e3 * | removing broken History-saveLocation link.
+4c1bdb46 * | Issue #154. Make options.data possible for creates and updates with the default sync.
+1c308280 * | Updating to latest QUnit, fixing Issue #153 ... overly aggressive urlError.
+65e43409 * | Updating Model-save documentation.
+a0ace0d9 * | Taking some of dvv's suggestions.
+67dd2ee8 * | prefer single quotes.
+331cb8be * | Allowing Model#defaults to be a function as well as a hash.
+c0c8cb27 * | Revising controller test as per dvv's suggestion.
+e3aa5751 * | adding a bit more explanation to Model#save onError
+4d6d494f * | adding options to the onError direct callback.
+30983219 * | Issue #143, properly escaping regex characters in literal routes.
+26105935 * | Making the collection-proxies-model-events a bit more clear
+c644866b * |   Merge branch 'zepto' of https://github.com/sstephenson/backbone
+         |\ \  
+8c5cd172 | * | Update test-zepto.html for Zepto 0.3
+714a5212 * | |   Merge branch 'closure-scope' of https://github.com/sstephenson/backbone
+         |\ \ \  
+         | |/ /  
+         |/| |   
+2c29387e | * | Pass along the current value of `this` to Backbone's closure wrapper
+12f7ae91 * | | Merging Issue #149. View#el can be a string.
+71c98381 * | | If Backbone.View#el is a string, pass it through $(...).get(0) in _ensureElement
+         |/ /  
+43176d96 * | Expanding View#el documentation.
+ad2ae8e1 * | Pass Collection#fetch options along to refresh
+3d8fe92f * | Issue #78. Changes the Backbone.sync API to enable passing through of options ... like {data} in fetch()
+d01b1364 * | Merging Issue #135. Multiple views per DOM element.
+aec3f47b * |   Merge branch 'multiple-views-per-element' of https://github.com/sstephenson/backbone
+         |\ \  
+34d1d0ac | * | Multiple views may listen for events on the same element
+5886fe40 * | | Issue #134. json2.js source link.
+         |/ /  
+53ae5b5c * | Issue #132 ... initial _changed after new with attributes.
+81cd0cfd * | documenting urlRoot ... making collection.url take precedence over urlRoot, if defined.
+e8be47f2 * | merge mkelley's urlBase, renamed to urlRoot.
+03aa12a6 * |   Merge branch 'master' of https://github.com/mkelly12/backbone
+         |\ \  
+52490108 | * | Add urlBase option to model to allow specifying restful url without using a collection
+17602c39 * | | Make Backbone View's delegateEvents only ever unbind the events that it adds itself.
+6ea500b0 * | | Fixing un-released models from refresh'd collections. Issue #128
+784adc62 * | |   Adding Collection#fetch with add: true
+         |\ \ \  
+3623916f | * | | Added append option when fetching a collection. Useful when lazy loading data sets.
+0c1bbbcc * | | | Adding Model#has to Backbone...
+b73fc464 * | | |   Merge branch 'Model-is' of https://github.com/mtodd/backbone
+         |\ \ \ \  
+21a3675d | * | | | Implement model.is() for attr test, with docs, tests
+9f842bda * | | | | Adding FAQ section for bootstrapping
+         |/ / / /  
+3246463d * | | | Adding an FAQ section to the backbone docs.
+bbcf1968 * | | | A silent change to a model will now make hasChanged() return true ... Issue #105
+         | |/ /  
+         |/| |   
+b085fa00 * | | Events#trigger ... making it safe to unbind your own event within a trigger() call.
+d4dc736a * | | adding a bit more of a test for changedattributes.
+6a0ac930 * | | Fixing Issue #109 -- ignore 'add' and 'remove' events that originate from models shared with other collections.
+         | |/  
+         |/|   
+3505bde5 * | 0.3.3 Backbone.js 0.3.3
+c7a7aa5b * | Updating test-zepto.html to latest Underscore
+0057523e * |   Merge branch 'zepto' of https://github.com/sstephenson/backbone
+         |\ \  
+de44d9ec | * | Update to Zepto 0.2
+e0cb5ee3 | * | Zepto support
+418b77ff * | | Upgrading test suite to latest Underscore.
+6e4046df * | | All Backbone events now pass through their options as the ffinal argument.
+fa9a4c87 * | | Passing through the options argument to 'change' events.
+         |/ /  
+160f0ba9 * | first draft of REST-failure 'error' events.
+7ae03841 * | first draft of Model#escape
+9994d2ba * | merging in zmack's enhanced Rakefile
+a98ecc90 * | Helpful error messages on rake tasks
+356664a7 * | 0.3.2 Backbone.js 0.3.2
+33232f52 * | Adding DC Workspace and Backbone Mobile examples.
+57194bef * | Fix recursion error when saving from within a change event.
+9e1fcfad * | Revert "about:blank for the IE hashchange iframe support, for IE 6."
+94c77e84 * | about:blank for the IE hashchange iframe support, for IE 6.
+a969d670 * | Allowing 'sync' to be overriden on a per-model per-collection basis.
+f3e961da * | Issue #80. Adding default attributes to Backbone.Model
+d574c9f7 * | docMode does not exist in IE < 8
+70e6cd65 * | that should be docMode <= 7
+f63c9951 * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+52c460bc | * | Allowing collections to remove models by either Cid or Id (prefering cid).
+         | |/  
+327ba8c5 * | Fixing id=0
+         |/  
+11dcf246 * Using a save join() for the default implementation of Model#url
+99fbc082 * Adding empty initialize() function for all Backbone classes, to make calling super() a easier to get right.
+7e363dfc * Rails include_root_in_json tips.
+86c30893 * 0.3.1 Issue #77, don't call toJSON unless you need to.
+78cf0706 * Backbone 0.3.1
+58e748bd * adding commas to the docs
+8ad010ff * removing a cautionary note that has been obsoleted by recent changes to jQuery.
+6eb90e3e * more mentions of history.start()
+5a32ecec * Remove duplicate backbone.localStorage docs
+25416548 * Remove !current check from checkUrl to allow loading of empty fragments.
+d190e9e7 * send 'add' and 'remove' events through the model.
+b38e9167 * Adding View#remove.
+3fa14be5 * 0.3.0 one more bound routes example for the road...
+03b790f7 * removing erroneous mention of History#setLocation
+46d196d1 * tweaking annotated source.
+f22d77ac * Backbone 0.3.0
+1e0986b4 * save -> saveLocation
+1f740b93 * first draft of Controller/History documentation.
+b638e31c * light refactor for History#getFragment
+9ebe66b4 * slight refactor to old-IE detection.
+4ff388ab * removing extraneous hasState flag.
+f636b3a3 * Making the fragment a little more consistent and pushState-ready. No octothorpe.
+151417e7 * separating out emulateHTTP from emulateJSON, with tests.
+be37cf01 * passing silent: true now suppresses validations. Issue #52
+cbc5055b * lowering the default hashchange time to 50.
+3373fa02 * Adding the IE8-in-IE7-mode hack.
+6443b730 * making the iframe tabindex -1
+6de4a8cc * all tests pass in IE7
+4aafb6b2 * Adding tests for Backbone.Controller
+61397b96 * commenting Backbone.History
+3fc9ef1e * commentng out Backbone.Controller
+37cd9912 * first draft of splatted params.
+bdee3a25 * first draft of Backbone.Controller and Backbone.History
+e1e6625a * that's .js
+09c7870f * Adding version number + header to backbone-min.js
+ee0cf27c * fixing comments typo.
+501b9ab3 * processData should be true if emulateHttp is true
+9a74dbc9 * Make protoProps optional, when inheriting.
+65c52763 * fixing more model.collection in initialize.
+ece51d23 * Allowing a collection to be passed into a model via the options.
+771b87f1 * added options argument to Backbone.Model initialize function
+6181445f * merging dxgriffiths' annotations to 'inherits'.
+b04854ef * Cleaned up the inherits function and added some extra comments to make it clear what is happening.
+d651d82e * don't send any data up, if you're not sending any data up ... fixes destroy.
+3d36c62f * merging in willmoffat's patch
+315ba730 * Added TodoView.remove()
+2d4ebd02 * Merging Issue #46. Use full JSON requests, falling back to encoded forms with emulateHttp.
+77b15e59 *   Merge branch 'master' of http://github.com/mrjjwright/backbone
+         |\  
+6c972695 | * Default behavior for Backbone.sync is now to send everything as application/json.  Emulating http and sending data as form url-encoded can be turned on with Backbone.emulateHttp
+302c0d5c | * Added Backbone.emulateJSON to enable the current behavior of syncing and made sending the body as application/json without a wrapping model param, the default
+b4d573c9 * | Merging in Chris Lloyd's Model#clear. Making validations run, if defined, on Model#clear and Model#unset
+47ba5c65 * |   Merge branch 'model-clear' of https://github.com/jashkenas/backbone
+         |\ \  
+d84ef25c | * | Added clear method to Model. Removes all attributes like you would expect.
+         | |/  
+f0ecfcd2 * | Issue #44 -- Model#set, empty string vs null.
+         |/  
+cd21480e * one more out-of-date-doc tweak
+07494217 * Fixing out-of-date documentation (mrjjwright)
+1d57168c * Adding one line to Backbone.js to provide seamless CoffeeScript integration (inheritance from Backbone.Model, View, Collection) + tests
+4c5b74c4 * Saving todo-in-editing on blur.
+8e0bd054 * Only one open todo item at a time.
+2ac532fd * Don't bury the lede.
+de4b2b35 * Fixing backbone-localstorage links.
+16ad4fd2 * fixing broken link
+cc744682 * Reworking the localStorage plugin.
+41090400 * Adding the Todos example to the homepage
+16ae9dcc *   Merge branch 'master' into gh-pages
+         |\  
+607bd7a3 | * Remove the cross-linking between the sources
+581688b9 * |   Merge branch 'master' into gh-pages
+         |\ \  
+         | |/  
+806a51b3 | *   resolve conflict
+         | |\  
+0f1e84f6 | | * Ensuring the Todo model has a sane default
+0ddef3b6 | * | Building the annotated source.
+         | |/  
+22f5a33a | * Fixing line-heights on multi-line todos
+6efd643e | * simplifying localStorage interface a bit.
+edbdeb11 | * Removing unnecessarily bound functions.
+d6e57b33 | * Adding a hover-able destroy icon
+62f43bde | * cleaning up generated CSS
+3a47769a | * Nice improvements to the rendering ... more templates, less javascript.
+092131db | * A little further on.
+6b6d3a70 | * updating CSS style. Fixing ordering.
+f6bd4df5 | * another mootools remmnant.
+37b8fb72 | * First semi-working version of the jQuer-ified example.
+34355e09 | *   Merging master
+         | |\  
+6aa2f537 | * | adding a disclaimer
+42cd7d5b * | |   Merge branch 'master' into gh-pages
+         |\ \ \  
+         | | |/  
+         | |/|   
+f260ac24 | * | Revert the attack of the italics.
+0c611074 * | |   resolving merge
+         |\ \ \  
+         | |/ /  
+3ba999c8 | * | 0.2.0 Cleaning up warnings
+9d280189 | * | Backbone 0.2.0
+6e7894d8 | * | Streamlined event delegation from models through collections. Added documentation for 0.2.0 enhancements.
+a7195a97 | * | Issue #28 -- handleEvents -> delegateEvents, which is now called in the constructor.
+a9de05eb | * | Switching from assumed 'model' and 'models' namespacing to an overridable 'parse' method on models and collections.
+869861df | * | Adding an Examples section to the homepage. Weak at the moment. More to come.
+9daf5d11 | * | Moving the example to an 'examples' branch for the time being...
+         | |/  
+f3a8dcd1 | * Merging in Collection#toJSON
+c957ec08 | *   Merge branch 'master' of http://github.com/bunchesofdonald/backbone
+         | |\  
+89e7e676 | | * Added Backbone.Collection.toJSON. Returns array of model's toJSON
+931338ea | * | Fixing Collection#create success callback, passing the model parameter through.
+089fd5c1 | * | Adding a test for Issue #33
+705aff58 | * | Issue #33. Refactor towards View#_ensureElement
+         | |/  
+c0259044 | * Further cleaning up the todos example.
+6ea50e6a | * moving edit UI out into a template.
+8282270d | * Starting to move to templates for the todo example.
+2e064bbf | * Adding support links -- Issues + Freenode + Twitter
+6252e257 | * adding Collection#chain to the documentation.
+a895bbb0 | * fixing chain() test.
+8d7eff8c | * Adding chain() to the Collection prototype
+c98cfeb4 | * moving 'demos' to 'examples'
+9d8b7adf | * removing the embryonic gist demo
+b27f57a9 | *   Merge branch 'demos' of https://github.com/Teino1978-Corp/Teino1978-Corp-backbone into demos
+         | |\  
+14db15b4 | | * Adding another demo: Todo Task manager
+14d81867 | * |   Merge branch 'master' into demos
+         | |\ \  
+         | | |/  
+         | |/|   
+349878cd | * | Using JSONP since the Same Origin Policy won't let file:// make an XHR to github.com
+4311d58c | * | optional values in the template.
+0f3c524a | * | beginnings of a different demo.
+08687aa1 | * |   Merge branch 'master' into demos
+         | |\ \  
+c5db4491 | * \ \   Merge branch 'master' into demos
+         | |\ \ \  
+ba3775e3 | * | | | changing the image url back
+5f0fe91e | * | | | adding a missing semicolon and using initialize in the demo
+09b13027 | * | | |   Merge branch 'master' of github.com:documentcloud/backbone into demos
+         | |\ \ \ \  
+3144542b | * | | | | Adding initial demo of collections, models, and multiple views all bound to change events on the model.
+013e45cf * | | | | | Adding an Examples section to the homepage. Weak at the moment. More to come.
+         | |_|_|_|/  
+         |/| | | |   
+d2ba3311 * | | | | 0.1.2 Backbone.js 0.1.2
+3e3c292c * | | | | documenting the 'error' callback and it's overriding behavior.
+2071b932 * | | | | tweak to view docs
+f0f7c8d5 * | | | | Adding an error when URLs are left unspecified, and highlighting the importance of the URL property in the docs for persistence to work.
+a09bcbca * | | | | error events are now always passed the model as the first argument. You may now also pass an error callback to set() and save(), if the callback is passed, it will be called instead of the 'error' event getting fired.
+b854b28d * | | | | additional documentation ... getting ready for 0.1.2
+5222fe71 * | | | |   Merge branch 'master' of http://github.com/tmpvar/backbone
+         |\ \ \ \ \  
+402f8663 | * | | | | added underscore dependency
+c5c795ed * | | | | | adding docs for Model#fetch
+17d64e0a * | | | | | Adding Backbone.Model#fetch
+2b539572 * | | | | | Passing JavaScriptLint. Added 'rake lint' task.
+83f4748d * | | | | | Adding a missing var declaration inside handleEvents
+7721f848 * | | | | |   adding Backbone.emulateHttp for frameworks that don't support HTTP. Issue #11
+         |\ \ \ \ \ \  
+19662693 | * | | | | | fixed indentation
+08030e43 | * | | | | | fixed indentation
+7f4a1bb1 | * | | | | | Added the _method hack from Sinatra for better coverage of PUT and DELETE for non-spec HTTP servers.
+         | | |_|/ / /  
+         | |/| | | |   
+68999882 * | | | | | Only send the model on create and update... It's better for destroy not to bother with it.
+         | |/ / / /  
+         |/| | | |   
+263245b9 * | | | | added package.json
+         | |_|_|/  
+         |/| | |   
+5c5b7a88 * | | | Don't send up model data for GET requests by default, for folks who are re-fetching existing collections.
+         | |_|/  
+         |/| |   
+7b10698a * | | making the speed test labels fit on the graph
+d8d40149 * | | Type found by pbowyer.
+         |/ /  
+500d66bd * | a handful of model speed tests.
+e7ce57cc * | Adding the beginnings of a speed suite to the Test page.
+3560062c * | removing redundant assignment in Events#trigger
+2ae60985 * | Moving all helper functions down to the bottom.
+9c535ca5 * | expand inherits helper child constructor creation, for clarity.
+7c901e22 * | Slightly shallower namespaced export for CommonJS.
+82365e39 * | internal Collection#_add and Collection#_remove, should return the model, in case they're overridden.
+         |/  
+a797829c * a note about namespacing JSON requests.
+b2cb44b8 * rebuilding annotated source and min.js
+0ac41263 * brief aside about sort versus sortBy
+09e20c15 * Documenting a collection's 'model' property
+83109032 * Issue #8 -- a number of improvements to the documentation.
+eb9f54c8 * willbailey's patch to use getByCid for internal lookups ... much safer.
+184687b2 * 0.1.1 Backbone 0.1.1
+8878c223 * View#_reset -> View#_configure
+c2114996 * adding a brief aside about super.
+aa35cb64 * less cryptic method of safely referencing jQuery.
+544a7e7d *   Merge branch 'grayrest' of http://github.com/grayrest/backbone
+         |\  
+2748c43f | * $ doesn't always belong to jQuery
+ff65c0a4 * |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \  
+e29b486f | * | fixes #4, small typo
+b8f54d52 | * | sorry, wrong version of docco
+13932d0d | * | small typo
+6886bca0 * | | typo in docs -- issue #4
+         |/ /  
+abd64dca * | Documenting initialize
+091e2660 * | Adding basic tests for initialize.
+63085b6c * | Calling 'initialize', if it is defined.
+e0b61034 * | internal _initialize to _reset
+         |/  
+542f0850 * documentation wording tweaks.
+7b490159 * Issue #2, view.render documentation.
+cd0d2ccb * augmenting the docs for Model#toJSON
+c0f602e7 * Framework sizes are controversial and hard to measure, best to be hand-wavey...
+284397f0 * 0.1.0 softening the background.
+39034e58 * Adding Closure Compiled minified production version.
+0c1b13ac * IE documentation tweaks
+8d0ebbaa * widening the sidebar
+8d5343d2 *   merged
+         |\  
+f6de01ec | *   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\  
+3cb5b34c | * | code highlighting
+b06c8776 | * | docs
+8109a6bb | * |   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\ \  
+e9c0c86b | * | | typo
+f09e7914 * | | | removing toString
+         | |_|/  
+         |/| |   
+53ac621f * | | Documenting constructor options.
+         | |/  
+         |/|   
+ae693afe * | making events forgiving of non-selectors...
+3a90caeb * | more annotated comments, adding length to the docs.
+4b2b8cf2 * | final pass through the documentation
+ed484a30 * | further down the page
+a2b924cb * | Lots of edits -- running well under Node.js
+317c99be * | attributes is now a public property, uncloned. documenting comparator, and more.
+a72920d3 * | documenting id and cid
+1fb28434 * | a reasonable readme
+         |/  
+c983a059 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+c01f6992 | * removing extra 's'
+5c16f716 * | removing demos for the initial release.
+         |/  
+accebff4 * ''
+337d5db8 * tiny tweaks
+bb538584 * tweaking intro -- rebuilding docco
+15b2ec81 * handleEvents API tweaks
+d8308f97 * added view tests
+7ea942e5 * fixing links
+8e7405e1 * updating rest tests.
+727c2996 * first draft of docs is done.
+21dfb550 * axed setMode. setCallbacks -> bindCallbacks
+e2cc0307 * through render
+6c887690 * through Backbone.sync, methodmap, etc.
+11c6ebb7 * add, remove, get, getbycid, at
+f9d66a4d * aliases and docs for underscore methods on collections
+66fb51ca * down at the bottom of the model docco
+c14dde7c * removing Backbone.Model#isEqual
+d66f9208 * validate
+cbbba479 *  ...
+eb5a89f1 * Up to attributes
+829b2c77 *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+c32d5360 | * fix a bug in view tests
+07e1b77d | * stubbing out view test
+6b55bd83 | * typo
+ad3387b0 * | shadowing
+         |/  
+4929b19f *   Merge branch 'master' of github.com:documentcloud/backbone
+         |\  
+a15abd8f | *   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\  
+f6318f7d | * \   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\ \  
+5cbfc4dc | * | | Adding demo of address book. Initial stub for now.
+db2610e7 * | | | moving along with the documentation
+         | |_|/  
+         |/| |   
+ad73393f * | | A real start on the documentation ... intro is done-ish.
+cc48c764 * | | Backbone.Bindable -> Backbone.Events
+1e8c0b88 * | | a pleasant boney background...
+626f7d2c * | | removing todo
+da07cedb * | | sets can fire 'error' events for all models within, as well.
+ed1871cb * | | first draft of basic validations
+d0e27756 * | | Attributes should remain a safe copy.
+9bdefd02 * | | started working on the index page, copied from Jammit
+2f4d1ac2 * | | --
+2081bbf3 * | | more comments, more docs
+81f82944 * | | finished commenting Views and Backbone.request -- regenerated docs.
+d343aa5f * | | testing a handful of the underscore methods on collections
+655ab7fa * | | finished initial round of tests for collection
+b1277b92 * | | defaulting Backbone.Collection#model to be Backbone.Model
+80acf948 * | | more tests, returning 'this', when performing side effects on collections
+463ce3e6 * | | Making zero numeric ids more possible
+6009b8d1 * | | more tests for collection, 0 is a valid id.
+16149c7c * | | Wrapped up the model tests.
+71969d36 * | | linting the remainder of the tests.
+03c1c70f * | | linting test/bindable
+c63f01ee * | | creating a model should set its attribute
+3190a5a7 * | | Backbone.View option handling tweak.
+2ca43eaa * | | fleshing out destroy
+1074f247 * | | Adding Backbone.Collection#fetch
+8eea2caa * | | first working version of create
+a29dd5c5 * | | fixing refresh for attributes only
+ddd87c0e * | | docs
+7e865390 * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+5269a5af | * \ \   Merge branch 'master' of git@github.com:documentcloud/backbone
+         | |\ \ \  
+         | | | |/  
+         | | |/|   
+573d491f | * | | fix bug in 'add' and 'refresh'
+a6293310 * | | | jslint
+         | |/ /  
+         |/| |   
+0cfa8d9d * | | rebuilt docs
+fc58be73 * | |   Merge branch 'master' of github.com:documentcloud/backbone
+         |\ \ \  
+         | |/ /  
+283bc897 | * |   Merge branch 'master' of git@github.com:documentcloud/backbone
+         | |\ \  
+17fc5a24 | | * | added a rake doc task
+595b3a57 | | * |   Merge branch 'master' of github.com:documentcloud/backbone
+         | | |\ \  
+232b0f8a | | * | | no more generated ids and fixed rake build
+21b66380 | * | | | more tests
+         | | |/ /  
+         | |/| |   
+d66f2ed1 | * | | some more tests
+62786612 | * | | beginnings of a test harness
+         | |/ /  
+61d8ede5 | * | underscore callbacks.
+cdf5cc5c | * |   Merge branch 'master' of github.com:documentcloud/backbone
+         | |\ \  
+a7b43b91 | * | | remove collection setting
+44a4d12d * | | | Model.destroy no longer removes the model from its collection
+ec209f70 * | | | refactored Backbone.request out of Model.{save,delete}
+b9b8a902 * | | | code style tweak
+         | |/ /  
+         |/| |   
+8b233a01 * | | fixed typo
+         |/ /  
+6c993eb1 * | Adding Docco'd source
+         |/  
+ef49944a * Initial semi-functional version of backbone.
+8a960b47 * Initial Commit
